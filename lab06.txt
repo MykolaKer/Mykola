@@ -1,0 +1,214 @@
+
++----------------+
+| srednia_pensja |
++----------------+
+|    5041.666667 |
++----------------+
+
+
++-----------------+----------------+--------------------+
+| job_position_id | srednia_pensja | liczba_pracownikow |
++-----------------+----------------+--------------------+
+|               1 |    5580.000000 |                  5 |
+|               2 |    4925.000000 |                  4 |
+|               3 |    5933.333333 |                  3 |
+|               4 |    4766.666667 |                  3 |
+|               6 |    4900.000000 |                  3 |
+|               7 |    4683.333333 |                  3 |
+|               8 |    4616.666667 |                  3 |
+|               5 |    4766.666667 |                  3 |
+|               9 |    4883.333333 |                  3 |
++-----------------+----------------+--------------------+
+
++---------------+-------------+
+| department_id | sredni_wiek |
++---------------+-------------+
+|             1 |     40.2500 |
+|             2 |     37.0000 |
+|             3 |     41.6667 |
+|             4 |     32.0000 |
+|             6 |     33.6667 |
+|             7 |     35.0000 |
+|             8 |     33.6667 |
+|             5 |     37.3333 |
+|             9 |     37.6667 |
+|            10 |     32.0000 |
++---------------+-------------+
+
++---------------+---------------+
+| department_id | laczna_pensja |
++---------------+---------------+
+|             1 |      24100.00 |
+|             3 |      18500.00 |
+|             9 |      15300.00 |
+|             5 |      15100.00 |
+|             2 |      14900.00 |
+|             6 |      14450.00 |
+|             7 |      14250.00 |
+|             8 |      13550.00 |
+|             4 |      12400.00 |
+|            10 |       8700.00 |
++---------------+---------------+
+
++-----------------+----------------+
+| job_position_id | srednia_pensja |
++-----------------+----------------+
+|               1 |    5580.000000 |
+|               2 |    4925.000000 |
+|               3 |    5933.333333 |
+|               4 |    4766.666667 |
+|               6 |    4900.000000 |
+|               7 |    4683.333333 |
+|               8 |    4616.666667 |
+|               5 |    4766.666667 |
+|               9 |    4883.333333 |
++-----------------+----------------+
+
++-----------------+--------------------+
+| department_name | liczba_pracownikow |
++-----------------+--------------------+
+| Sprzedaz        |                  4 |
+| Magazyn         |                  3 |
+| Administracja   |                  3 |
+| Ksiegowosc      |                  3 |
+| IT              |                  3 |
+| Logistyka       |                  3 |
+| Marketing       |                  3 |
+| HR              |                  3 |
+| Obsluga klienta |                  3 |
+| Produkcja       |                  2 |
++-----------------+--------------------+
+
++-----------------+---------------+
+| DEPARTMENT_NAME | EMPLOYEE_NAME |
++-----------------+---------------+
+| Sprzedaz        |             1 |
+| Magazyn         |             2 |
+| Administracja   |             3 |
+| Ksiegowosc      |             4 |
+| Sprzedaz        |             5 |
+| IT              |             6 |
+| Logistyka       |             7 |
+| Marketing       |             8 |
+| HR              |             9 |
+| Obsluga klienta |            10 |
+| Magazyn         |            11 |
+| Administracja   |            12 |
+| Sprzedaz        |            13 |
+| Ksiegowosc      |            14 |
+| HR              |            15 |
+| IT              |            16 |
+| Logistyka       |            17 |
+| Marketing       |            18 |
+| Obsluga klienta |            19 |
+| Produkcja       |            20 |
+| Sprzedaz        |            21 |
+| Magazyn         |            22 |
+| Administracja   |            23 |
+| Ksiegowosc      |            24 |
+| HR              |            25 |
+| IT              |            26 |
+| Logistyka       |            27 |
+| Marketing       |            28 |
+| Obsluga klienta |            29 |
+| Produkcja       |            30 |
++-----------------+---------------+
+
++-------------+----------------------------+
+| LAST_NAME   | POSITION_NAME              |
++-------------+----------------------------+
+| Lis         | Magazynier                 |
+| Lewandowska | Ksiegowy                   |
+| Mazur       | Programista                |
+| Zielony     | Operator logistyki         |
+| Kowalska    | Specjalista ds. marketingu |
+| Czajka      | Pracownik obslugi klienta  |
+| Sadowska    | Ksiegowy                   |
+| Wojcik      | Programista                |
+| Gajda       | Operator logistyki         |
+| Krawczyk    | Kierownik sprzedazy        |
+| Lis         | Specjalista ds. HR         |
+| Sikora      | Operator logistyki         |
+| Wrona       | Pracownik obslugi klienta  |
+| Sowa        | Magazynier                 |
++-------------+----------------------------+
+
++--------------+--------------+
+| Klient_1     | Klient_2     |
++--------------+--------------+
+| AutoMax      | Kowalski     |
+| Kaczmarek    | Nowak        |
+| Meblex       | TechSol      |
+| Pawlak       | FoodMarket   |
+| EcoTrade     | Wisniewski   |
+| Wojcik       | AutoMax      |
+| Dudek        | Kaczmarek    |
+| FreshFood    | Meblex       |
+| TechWorld    | Pawlak       |
+| Zajac        | EcoTrade     |
+| HomeDecor    | Wojcik       |
+| Baran        | Dudek        |
+| AutoParts    | FreshFood    |
+| Wilk         | TechWorld    |
+| EcoSol       | Zajac        |
+| Malecka      | HomeDecor    |
+| FurniCo      | Baran        |
+| Sikora       | AutoParts    |
+| SportPro     | Wilk         |
+| Nowakowska   | EcoSol       |
+| GardenPlus   | Malecka      |
+| Duda         | FurniCo      |
+| OfficeSup    | Sikora       |
+| Kaminski     | SportPro     |
+| CleanHome    | Nowakowska   |
+| Sadowska     | GardenPlus   |
+| MarketSuper  | Duda         |
+| Rutkowski    | OfficeSup    |
+| DigitalHouse | Kaminski     |
+| Olszewska    | CleanHome    |
+| TechPlanet   | Sadowska     |
+| Domanski     | MarketSuper  |
+| BestJobs     | Rutkowski    |
+| Krysztofiak  | DigitalHouse |
+| EcoDrive     | Olszewska    |
+| Chrzanowski  | TechPlanet   |
+| FoodWay      | Domanski     |
+| Gorska       | BestJobs     |
+| GardenPro    | Krysztofiak  |
+| Kaczmarek    | EcoDrive     |
+| PaperGroup   | Chrzanowski  |
+| Czarnecka    | FoodWay      |
+| Fitmarket    | Gorska       |
+| Wojcik       | GardenPro    |
+| WebCom       | Kaczmarek    |
++--------------+--------------+
+
++---------------------+-----------------+-------------------+
+| position_name       | srednie_zarobki | ilosc_pracownikow |
++---------------------+-----------------+-------------------+
+| Kierownik sprzedazy |     5580.000000 |                 5 |
+| Magazynier          |     4925.000000 |                 4 |
++---------------------+-----------------+-------------------+
+
++----------------------------+---------------+------------+-----------------+------------+
+| position_name              | EMPLOYEE_NAME | birth_date | department_name | Typ_Osoby  |
++----------------------------+---------------+------------+-----------------+------------+
+| Administrator biura        |             3 | 1982-11-05 | Administracja   | Najmlodszy |
+| Administrator biura        |            22 | 1986-04-14 | Magazyn         | Najstarszy |
+| Kierownik sprzedazy        |            13 | 1984-02-25 | Sprzedaz        | Najmlodszy |
+| Kierownik sprzedazy        |            20 | 1993-03-08 | Produkcja       | Najstarszy |
+| Ksiegowy                   |            23 | 1982-07-08 | Administracja   | Najmlodszy |
+| Ksiegowy                   |             4 | 1995-06-19 | Ksiegowosc      | Najstarszy |
+| Magazynier                 |            21 | 1983-09-21 | Sprzedaz        | Najmlodszy |
+| Magazynier                 |            30 | 1993-07-09 | Produkcja       | Najstarszy |
+| Operator logistyki         |            17 | 1990-06-11 | Logistyka       | Najmlodszy |
+| Operator logistyki         |             7 | 1991-02-10 | Logistyka       | Najstarszy |
+| Pracownik obslugi klienta  |            19 | 1985-01-30 | Obsluga klienta | Najmlodszy |
+| Pracownik obslugi klienta  |            10 | 1992-12-25 | Obsluga klienta | Najstarszy |
+| Programista                |            25 | 1987-06-25 | HR              | Najmlodszy |
+| Programista                |             6 | 1993-09-15 | IT              | Najstarszy |
+| Specjalista ds. HR         |            15 | 1987-05-20 | HR              | Najmlodszy |
+| Specjalista ds. HR         |            24 | 1992-08-17 | Ksiegowosc      | Najstarszy |
+| Specjalista ds. marketingu |            27 | 1989-05-14 | Logistyka       | Najmlodszy |
+| Specjalista ds. marketingu |             8 | 1994-05-22 | Marketing       | Najstarszy |
++----------------------------+---------------+------------+-----------------+------------+
