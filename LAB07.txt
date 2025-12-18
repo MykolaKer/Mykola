@@ -1,0 +1,742 @@
++------------+---------------------+
+| SHORT_NAME | FULL_NAME           |
++------------+---------------------+
+| Wisniewski | Piotr Wisniewski    |
+| EcoTrade   | EcoTrade Sp. z o.o. |
++------------+---------------------+
+
++-----------+
+| UNIT_NAME |
++-----------+
+| opak.     |
+| mb        |
+| para      |
+| karton    |
+| zest.     |
+| rolka     |
+| paleta    |
++-----------+
+
++-------------------------------+----------------+
+| PRODUCT_NAME                  | Avg_Difference |
++-------------------------------+----------------+
+| Laptop HP                     |     638.571429 |
+| Laptop Lenovo ThinkPad        |     400.000000 |
+| Monitor LG 27"                |     200.000000 |
+| Tablet Samsung Galaxy Tab     |     150.000000 |
+| Pasta do zebow                |     130.600000 |
+| Smartwatch Apple Watch        |     100.000000 |
+| Dysk SSD Kingston 1TB         |      70.000000 |
+| Biurko drewniane              |      63.571429 |
+| Monitor Samsung               |      58.571429 |
+| Plyn do naczyn                |      53.166667 |
+| Opona zimowa                  |      43.125000 |
+| Pilka nozna                   |      40.333333 |
+| Klawiatura Logitech           |      40.000000 |
+| Tablet Lenovo                 |      35.000000 |
+| Router TP-Link Archer         |      30.000000 |
+| Sluchawki JBL Tune            |      30.000000 |
+| Myszka Logitech MX            |      25.000000 |
+| Krzeslo biurowe               |      20.714286 |
+| Powerbank Xiaomi 20000mAh     |      20.000000 |
+| Lampa biurkowa                |      15.571429 |
+| Olejek silnikowy              |      15.333333 |
+| Buty do biegania              |      13.750000 |
+| Koszulka bawelniana           |      13.000000 |
+| Toner HP 201A                 |      10.000000 |
+| Konewka 10L                   |       8.571429 |
+| Polka na dokumenty            |       6.000000 |
+| Bindownica Fellowes           |       5.000000 |
+| Zraszacz do ogrodu            |       5.000000 |
+| Tasma klejaca Scotch          |       5.000000 |
+| Maka pszenna 1kg              |       4.031250 |
+| Notes A5 Oxford               |       4.000000 |
+| Doniczka ceramiczna           |       4.000000 |
+| Markery Sharpie 4 szt         |       4.000000 |
+| Nozyczki biurowe              |       3.000000 |
+| Kalkulator Casio              |       3.000000 |
+| Rekawice bokserskie           |       2.250000 |
+| Segregator Bantex             |       2.000000 |
+| Papier A4                     |       1.857143 |
+| Czekolada mleczna             |       1.800000 |
+| Skoroszyt plastikowy          |       1.500000 |
+| Szampon do wlosow             |       1.428571 |
+| Mydlo Palmolive               |       1.414286 |
+| Cukier 1kg                    |       1.300000 |
+| Zeszyt A4                     |       0.928571 |
+| srodek czyszczacy do lazienki |       0.857143 |
+| Proszek do prania             |       0.000000 |
+| Dlugopis Parker               |      -0.187500 |
+| Spodnie jeansowe              |      -7.285714 |
+| Kurtka zimowa damska          |     -15.000000 |
+| Smartfon Samsung Galaxy       |    -826.428571 |
++-------------------------------+----------------+
+
++-----------------+
+| DEPARTMENT_NAME |
++-----------------+
+| Produkcja       |
+| Obsluga klienta |
+| Marketing       |
+| Logistyka       |
+| IT              |
+| HR              |
+| Ksiegowosc      |
+| Administracja   |
+| Magazyn         |
+| Sprzedaz        |
++-----------------+
+
++----------------------------------------------------------------------------------------+
+| Full_Product_Name                                                                      |
++----------------------------------------------------------------------------------------+
+| Laptop HP (Laptop 15 cali z dyskiem SSD 512GB)                                         |
+| Monitor Samsung (Monitor 24" LED)                                                      |
+| Papier A4 (Recznik papierowy do drukarki)                                              |
+| Cukier 1kg (Cukier bialy)                                                              |
+| Biurko drewniane (Biurko klasyczne z szufladami)                                       |
+| Mydlo Palmolive (Plynne mydlo do rak)                                                  |
+| Plyn do naczyn (Fairy 1L)                                                              |
+| Koszulka bawelniana (T-shirt rozmiar M)                                                |
+| Pilka nozna (Pilka skorzana rozmiar 5)                                                 |
+| Konewka 10L (Do podlewania ogrodu)                                                     |
+| Smartfon Samsung Galaxy (Smartfon z ekranem 6.4 cala, 128GB pamieci)                   |
+| Dlugopis Parker (Wysokiej jakosci dlugopis z niebieskim atramentem)                    |
+| Maka pszenna 1kg (Maka do wypiekow, 1 kg opakowanie)                                   |
+| Krzeslo biurowe (Ergonomiczne krzeslo z regulacja wysokosci)                           |
+| Szampon do wlosow (Szampon przeciwlupiezowy 250 ml)                                    |
+| Proszek do prania (Proszek do prania 3 kg, skuteczny w niskich temperaturach)          |
+| Spodnie jeansowe (Klasyczne jeansy meskie, rozmiar M)                                  |
+| Opona zimowa (Opona zimowa 205/55 R16)                                                 |
+| Rekawice bokserskie (Rekawice bokserskie rozmiar L, skorzane)                          |
+| Doniczka ceramiczna (Doniczka na kwiaty o pojemnosci 2 litrow)                         |
+| Tablet Lenovo (Tablet Android 10 cali, 64GB pamieci)                                   |
+| Zeszyt A4 (Zeszyt w linie, 60 kartek)                                                  |
+| Czekolada mleczna (Czekolada mleczna 100g)                                             |
+| Lampa biurkowa (Lampa LED z regulacja jasnosci)                                        |
+| Pasta do zebow (Pasta wybielajaca 75 ml)                                               |
+| srodek czyszczacy do lazienki (Preparat usuwajacy kamien i brud)                       |
+| Kurtka zimowa damska (Kurtka ocieplana, rozmiar L)                                     |
+| Olejek silnikowy (Olejek syntetyczny 5W-30, 4L)                                        |
+| Buty do biegania (Buty sportowe damskie, rozmiar 38)                                   |
+| Zraszacz do ogrodu (Zraszacz regulowany do trawnika)                                   |
+| Laptop Lenovo ThinkPad (Biznesowy laptop 14 cali)                                      |
+| Smartwatch Apple Watch (Smartwatch GPS 44mm)                                           |
+| Tablet Samsung Galaxy Tab (Tablet 9.7 cala, 64GB)                                      |
+| Sluchawki JBL Tune (Bezprzewodowe sluchawki bluetooth)                                 |
+| Monitor LG 27" (Monitor IPS 27 cali)                                                   |
+| Router TP-Link Archer (Router WiFi AC1200)                                             |
+| Klawiatura Logitech (Klawiatura mechaniczna)                                           |
+| Myszka Logitech MX (Bezprzewodowa myszka)                                              |
+| Dysk SSD Kingston 1TB (Dysk SSD NVMe 1TB)                                              |
+| Powerbank Xiaomi 20000mAh (Powerbank USB-C)                                            |
+| Karta pamieci SanDisk 128GB (microSD 128GB UHS-I)                                      |
+| Projektor Epson EB (Projektor multimedialny FullHD)                                    |
+| Glosnik LG XBoom (Glosnik przenosny bluetooth)                                         |
+| Kamery internetowe C920 (FullHD USB)                                                   |
+| UPS APC 650VA (Zasilacz awaryjny 650VA)                                                |
+| Pendrive Kingston 64GB (Pendrive USB 3.0)                                              |
+| Czytnik e-book Kindle (Kindle Paperwhite)                                              |
+| ladowarka Green Cell (ladowarka USB 4A)                                                |
+| Kamera GoPro Hero (Kamera sportowa 4K)                                                 |
+| Stacja dokujaca Dell (USB-C/Thunderbolt)                                               |
+| Torba na laptop Case Logic (Torba 15,6")                                               |
+| Regulowany statyw (Statyw na aparat/kamere)                                            |
+| Adapter HDMI-VGA (Adapter converter)                                                   |
+| Mikrofon Trust (Mikrofon USB)                                                          |
+| Switch TP-Link 5 port (Switch ethernet)                                                |
+| Toner HP 201A (Toner laserowy do drukarki)                                             |
+| Bindownica Fellowes (Bindownica dokumentow)                                            |
+| Polka na dokumenty (Metalowa, czarna)                                                  |
+| Notes A5 Oxford (Notes w linie 120 kartek)                                             |
+| Skoroszyt plastikowy (Kolor niebieski)                                                 |
+| Segregator Bantex (Segregator A4 75mm)                                                 |
+| Markery Sharpie 4 szt (Kolorowe markery permanentne)                                   |
+| Nozyczki biurowe (Nozyczki 15cm)                                                       |
+| Tasma klejaca Scotch (Tasma przezroczysta 25m)                                         |
+| Kalkulator Casio (Kalkulator biurowy MS-20S)                                           |
+| Pieczatka Trodat (Pieczatka firmowa z tuszem)                                          |
+| Klipsy do papieru (Zestaw 50szt.)                                                      |
+| Plecak na laptop (Biurowy plecak z organizerem)                                        |
+| Pojemnik na dlugopisy (Organizer na biurko)                                            |
+| Koszulki na dokumenty (Opakowanie 100szt.)                                             |
+| Zszywacz Novus (Zszywacz do papieru)                                                   |
+| Stojak na katalogi (Plastikowy, czarny)                                                |
+| Tasma dwustronna Tesa (Tasma 25mm x 10m)                                               |
+| Dlugopis Bic 12 szt. (Klasyczne dlugopisy niebieskie)                                  |
+| Podkladka pod mysz (Czarna podkladka ze zelem)                                         |
+| Gumka Factis (Gumka do mazania)                                                        |
+| Notes samoprzylepny (Zestaw 10 kolorow)                                                |
+| Przekladki do segregatora (12 szt. kolorowe)                                           |
+| Klamerki archiwizacyjne (Metalowe, 25 szt.)                                            |
+| Szpilki biurowe Donau (Male szpilki, 50 szt.)                                          |
+| Biurko elektryczne (Biurko regulowane elektrycznie.)                                   |
+| Szafka biurowa (Szafka dwudrzwiowa wys. 75cm, szer. 90cm, g?. 45cm)                    |
+| Podk?adka pod mysz (Podk?adka pod mysz z motywem z gry Wied?min.)                      |
+| Karta graficzna Nvidia GeForce 4080 (Karta graficzna Nvidia GeForce 4080 16 GB GDDRX6) |
++----------------------------------------------------------------------------------------+
+
++-------------------------------------------------------------------------------------------------------+
+| All_Columns                                                                                           |
++-------------------------------------------------------------------------------------------------------+
+| 1, 1, Laptop HP, 2500.00, Laptop 15 cali z dyskiem SSD 512GB                                          |
+| 2, 1, Monitor Samsung, 800.00, Monitor 24" LED                                                        |
+| 3, 2, Papier A4, 20.00, Recznik papierowy do drukarki                                                 |
+| 4, 3, Cukier 1kg, 4.50, Cukier bialy                                                                  |
+| 5, 4, Biurko drewniane, 560.00, Biurko klasyczne z szufladami                                         |
+| 6, 5, Mydlo Palmolive, 8.00, Plynne mydlo do rak                                                      |
+| 7, 6, Plyn do naczyn, 6.50, Fairy 1L                                                                  |
+| 8, 7, Koszulka bawelniana, 45.00, T-shirt rozmiar M                                                   |
+| 9, 9, Pilka nozna, 120.00, Pilka skorzana rozmiar 5                                                   |
+| 10, 10, Konewka 10L, 35.00, Do podlewania ogrodu                                                      |
+| 11, 1, Smartfon Samsung Galaxy, 2200.00, Smartfon z ekranem 6.4 cala, 128GB pamieci                   |
+| 12, 2, Dlugopis Parker, 12.00, Wysokiej jakosci dlugopis z niebieskim atramentem                      |
+| 13, 3, Maka pszenna 1kg, 3.50, Maka do wypiekow, 1 kg opakowanie                                      |
+| 14, 4, Krzeslo biurowe, 350.00, Ergonomiczne krzeslo z regulacja wysokosci                            |
+| 15, 5, Szampon do wlosow, 15.00, Szampon przeciwlupiezowy 250 ml                                      |
+| 16, 6, Proszek do prania, 30.00, Proszek do prania 3 kg, skuteczny w niskich temperaturach            |
+| 17, 7, Spodnie jeansowe, 120.00, Klasyczne jeansy meskie, rozmiar M                                   |
+| 18, 8, Opona zimowa, 400.00, Opona zimowa 205/55 R16                                                  |
+| 19, 9, Rekawice bokserskie, 180.00, Rekawice bokserskie rozmiar L, skorzane                           |
+| 20, 10, Doniczka ceramiczna, 45.00, Doniczka na kwiaty o pojemnosci 2 litrow                          |
+| 21, 1, Tablet Lenovo, 950.00, Tablet Android 10 cali, 64GB pamieci                                    |
+| 22, 2, Zeszyt A4, 5.00, Zeszyt w linie, 60 kartek                                                     |
+| 23, 3, Czekolada mleczna, 6.00, Czekolada mleczna 100g                                                |
+| 24, 4, Lampa biurkowa, 120.00, Lampa LED z regulacja jasnosci                                         |
+| 25, 5, Pasta do zebow, 12.00, Pasta wybielajaca 75 ml                                                 |
+| 26, 6, srodek czyszczacy do lazienki, 18.00, Preparat usuwajacy kamien i brud                         |
+| 27, 7, Kurtka zimowa damska, 250.00, Kurtka ocieplana, rozmiar L                                      |
+| 28, 8, Olejek silnikowy, 70.00, Olejek syntetyczny 5W-30, 4L                                          |
+| 29, 9, Buty do biegania, 270.00, Buty sportowe damskie, rozmiar 38                                    |
+| 30, 10, Zraszacz do ogrodu, 40.00, Zraszacz regulowany do trawnika                                    |
+| 31, 1, Laptop Lenovo ThinkPad, 2800.00, Biznesowy laptop 14 cali                                      |
+| 32, 1, Smartwatch Apple Watch, 1800.00, Smartwatch GPS 44mm                                           |
+| 33, 1, Tablet Samsung Galaxy Tab, 1100.00, Tablet 9.7 cala, 64GB                                      |
+| 34, 1, Sluchawki JBL Tune, 220.00, Bezprzewodowe sluchawki bluetooth                                  |
+| 35, 1, Monitor LG 27", 1200.00, Monitor IPS 27 cali                                                   |
+| 36, 1, Router TP-Link Archer, 350.00, Router WiFi AC1200                                              |
+| 37, 1, Klawiatura Logitech, 270.00, Klawiatura mechaniczna                                            |
+| 38, 1, Myszka Logitech MX, 180.00, Bezprzewodowa myszka                                               |
+| 39, 1, Dysk SSD Kingston 1TB, 350.00, Dysk SSD NVMe 1TB                                               |
+| 40, 1, Powerbank Xiaomi 20000mAh, 160.00, Powerbank USB-C                                             |
+| 41, 1, Karta pamieci SanDisk 128GB, 70.00, microSD 128GB UHS-I                                        |
+| 42, 1, Projektor Epson EB, 2300.00, Projektor multimedialny FullHD                                    |
+| 43, 1, Glosnik LG XBoom, 500.00, Glosnik przenosny bluetooth                                          |
+| 44, 1, Kamery internetowe C920, 299.00, FullHD USB                                                    |
+| 45, 1, UPS APC 650VA, 430.00, Zasilacz awaryjny 650VA                                                 |
+| 46, 1, Pendrive Kingston 64GB, 35.00, Pendrive USB 3.0                                                |
+| 47, 1, Czytnik e-book Kindle, 410.00, Kindle Paperwhite                                               |
+| 48, 1, ladowarka Green Cell, 70.00, ladowarka USB 4A                                                  |
+| 49, 1, Kamera GoPro Hero, 1350.00, Kamera sportowa 4K                                                 |
+| 50, 1, Stacja dokujaca Dell, 950.00, USB-C/Thunderbolt                                                |
+| 51, 1, Torba na laptop Case Logic, 125.00, Torba 15,6"                                                |
+| 52, 1, Regulowany statyw, 150.00, Statyw na aparat/kamere                                             |
+| 53, 1, Adapter HDMI-VGA, 45.00, Adapter converter                                                     |
+| 54, 1, Mikrofon Trust, 110.00, Mikrofon USB                                                           |
+| 55, 1, Switch TP-Link 5 port, 95.00, Switch ethernet                                                  |
+| 56, 2, Toner HP 201A, 260.00, Toner laserowy do drukarki                                              |
+| 57, 2, Bindownica Fellowes, 135.00, Bindownica dokumentow                                             |
+| 58, 2, Polka na dokumenty, 22.00, Metalowa, czarna                                                    |
+| 59, 2, Notes A5 Oxford, 16.00, Notes w linie 120 kartek                                               |
+| 60, 2, Skoroszyt plastikowy, 3.50, Kolor niebieski                                                    |
+| 61, 2, Segregator Bantex, 14.00, Segregator A4 75mm                                                   |
+| 62, 2, Markery Sharpie 4 szt, 18.00, Kolorowe markery permanentne                                     |
+| 63, 2, Nozyczki biurowe, 9.00, Nozyczki 15cm                                                          |
+| 64, 2, Tasma klejaca Scotch, 5.00, Tasma przezroczysta 25m                                            |
+| 65, 2, Kalkulator Casio, 39.00, Kalkulator biurowy MS-20S                                             |
+| 66, 2, Pieczatka Trodat, 44.00, Pieczatka firmowa z tuszem                                            |
+| 67, 2, Klipsy do papieru, 7.50, Zestaw 50szt.                                                         |
+| 68, 2, Plecak na laptop, 95.00, Biurowy plecak z organizerem                                          |
+| 69, 2, Pojemnik na dlugopisy, 7.00, Organizer na biurko                                               |
+| 70, 2, Koszulki na dokumenty, 13.00, Opakowanie 100szt.                                               |
+| 71, 2, Zszywacz Novus, 21.00, Zszywacz do papieru                                                     |
+| 72, 2, Stojak na katalogi, 26.00, Plastikowy, czarny                                                  |
+| 73, 2, Tasma dwustronna Tesa, 18.00, Tasma 25mm x 10m                                                 |
+| 74, 2, Dlugopis Bic 12 szt., 13.00, Klasyczne dlugopisy niebieskie                                    |
+| 75, 2, Podkladka pod mysz, 14.00, Czarna podkladka ze zelem                                           |
+| 76, 2, Gumka Factis, 2.50, Gumka do mazania                                                           |
+| 77, 2, Notes samoprzylepny, 6.50, Zestaw 10 kolorow                                                   |
+| 78, 2, Przekladki do segregatora, 9.00, 12 szt. kolorowe                                              |
+| 79, 2, Klamerki archiwizacyjne, 8.50, Metalowe, 25 szt.                                               |
+| 80, 2, Szpilki biurowe Donau, 4.00, Male szpilki, 50 szt.                                             |
+| 81, 4, Biurko elektryczne, 1199.00, Biurko regulowane elektrycznie.                                   |
+| 82, 4, Szafka biurowa, 399.00, Szafka dwudrzwiowa wys. 75cm, szer. 90cm, g?. 45cm                     |
+| 83, 1, Podk?adka pod mysz, 89.50, Podk?adka pod mysz z motywem z gry Wied?min.                        |
+| 84, 1, Karta graficzna Nvidia GeForce 4080, 4999.00, Karta graficzna Nvidia GeForce 4080 16 GB GDDRX6 |
++-------------------------------------------------------------------------------------------------------+
+
++-----------------+--------------------------------------------------------------+
+| Department_Name | Employees                                                    |
++-----------------+--------------------------------------------------------------+
+| Administracja   | Marek Nowicki, Barbara Kowalczyk, Wojciech Krol              |
+| HR              | Rafal Sikora, Grzegorz Kubiak, Tomasz Zielinski              |
+| IT              | Ewa Mazur, Joanna Wojcik, Monika Sikora                      |
+| Ksiegowosc      | Agnieszka Lewandowska, Magdalena Sadowska, Agnieszka Lis     |
+| Logistyka       | Mariusz Zielony, Pawel Gajda, Jakub Wozniak                  |
+| Magazyn         | Katarzyna Lis, Janusz Nowak, Dorota Michalak                 |
+| Marketing       | Aneta Kowalska, Sylwia Baran, Ewelina Wrona                  |
+| Obsluga klienta | Olga Czajka, Artur Bednarz, Marcin Krupa                     |
+| Produkcja       | Elzbieta Krawczyk, Patrycja Sowa                             |
+| Sprzedaz        | Tomasz Kowal, Pawel Kaczor, Michal Zajac, Krzysztof Cybulski |
++-----------------+--------------------------------------------------------------+
+
++---------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| CATEGORY_NAME | Unsold_Products                                                                                                                                                                                                                                                                                                                                                                          |
++---------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Biuro         | Dlugopis Bic 12 szt., Plecak na laptop, Klipsy do papieru, Pieczatka Trodat, Pojemnik na dlugopisy, Koszulki na dokumenty, Zszywacz Novus, Stojak na katalogi, Tasma dwustronna Tesa, Podkladka pod mysz, Gumka Factis, Notes samoprzylepny, Przekladki do segregatora, Klamerki archiwizacyjne, Szpilki biurowe Donau                                                                   |
+| Elektronika   | Karta graficzna Nvidia GeForce 4080, Podk?adka pod mysz, Karta pamieci SanDisk 128GB, Switch TP-Link 5 port, Mikrofon Trust, Adapter HDMI-VGA, Regulowany statyw, Torba na laptop Case Logic, Stacja dokujaca Dell, Kamera GoPro Hero, ladowarka Green Cell, Czytnik e-book Kindle, Pendrive Kingston 64GB, UPS APC 650VA, Kamery internetowe C920, Glosnik LG XBoom, Projektor Epson EB |
+| Meble         | Biurko elektryczne, Szafka biurowa                                                                                                                                                                                                                                                                                                                                                       |
++---------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++--------------+-------------+
+| ORDER_NUMBER | Status_Text |
++--------------+-------------+
+| ORD0001      | Inny        |
+| ORD0002      | Inny        |
+| ORD0003      | Zakonczone  |
+| ORD0004      | Inny        |
+| ORD0005      | Inny        |
+| ORD0006      | Zakonczone  |
+| ORD0007      | Zakonczone  |
+| ORD0008      | Inny        |
+| ORD0009      | Inny        |
+| ORD0010      | Zakonczone  |
+| ORD0011      | Inny        |
+| ORD0012      | Inny        |
+| ORD0013      | Zakonczone  |
+| ORD0014      | Inny        |
+| ORD0015      | Inny        |
+| ORD0016      | Zakonczone  |
+| ORD0017      | Zakonczone  |
+| ORD0018      | Inny        |
+| ORD0019      | Inny        |
+| ORD0020      | Zakonczone  |
+| ORD0021      | Inny        |
+| ORD0022      | Inny        |
+| ORD0023      | Zakonczone  |
+| ORD0024      | Inny        |
+| ORD0025      | Inny        |
+| ORD0026      | Zakonczone  |
+| ORD0027      | Zakonczone  |
+| ORD0028      | Inny        |
+| ORD0029      | Inny        |
+| ORD0030      | Zakonczone  |
+| ORD0031      | Inny        |
+| ORD0032      | Inny        |
+| ORD0033      | Zakonczone  |
+| ORD0034      | Inny        |
+| ORD0035      | Inny        |
+| ORD0036      | Zakonczone  |
+| ORD0037      | Zakonczone  |
+| ORD0038      | Inny        |
+| ORD0039      | Inny        |
+| ORD0040      | Zakonczone  |
+| ORD0041      | Inny        |
+| ORD0042      | Inny        |
+| ORD0043      | Zakonczone  |
+| ORD0044      | Inny        |
+| ORD0045      | Inny        |
+| ORD0046      | Zakonczone  |
+| ORD0047      | Zakonczone  |
+| ORD0048      | Inny        |
+| ORD0049      | Inny        |
+| ORD0050      | Zakonczone  |
+| ORD0051      | Inny        |
+| ORD0052      | Inny        |
+| ORD0053      | Zakonczone  |
+| ORD0054      | Inny        |
+| ORD0055      | Inny        |
+| ORD0056      | Zakonczone  |
+| ORD0057      | Zakonczone  |
+| ORD0058      | Inny        |
+| ORD0059      | Inny        |
+| ORD0060      | Zakonczone  |
+| ORD0061      | Inny        |
+| ORD0062      | Inny        |
+| ORD0063      | Zakonczone  |
+| ORD0064      | Inny        |
+| ORD0065      | Inny        |
+| ORD0066      | Zakonczone  |
+| ORD0067      | Zakonczone  |
+| ORD0068      | Inny        |
+| ORD0069      | Inny        |
+| ORD0070      | Zakonczone  |
+| ORD0071      | Inny        |
+| ORD0072      | Inny        |
+| ORD0073      | Zakonczone  |
+| ORD0074      | Inny        |
+| ORD0075      | Inny        |
+| ORD0076      | Zakonczone  |
+| ORD0077      | Zakonczone  |
+| ORD0078      | Inny        |
+| ORD0079      | Inny        |
+| ORD0080      | Zakonczone  |
+| ORD0081      | Inny        |
+| ORD0082      | Inny        |
+| ORD0083      | Zakonczone  |
+| ORD0084      | Inny        |
+| ORD0085      | Inny        |
+| ORD0086      | Zakonczone  |
+| ORD0087      | Zakonczone  |
+| ORD0088      | Inny        |
+| ORD0089      | Inny        |
+| ORD0090      | Zakonczone  |
+| ORD0091      | Inny        |
+| ORD0092      | Inny        |
+| ORD0093      | Zakonczone  |
+| ORD0094      | Inny        |
+| ORD0095      | Inny        |
+| ORD0096      | Zakonczone  |
+| ORD0097      | Zakonczone  |
+| ORD0098      | Inny        |
+| ORD0099      | Inny        |
+| ORD0100      | Zakonczone  |
+| ORD0101      | Inny        |
+| ORD0102      | Inny        |
+| ORD0103      | Zakonczone  |
+| ORD0104      | Inny        |
+| ORD0105      | Inny        |
+| ORD0106      | Zakonczone  |
+| ORD0107      | Inny        |
+| ORD0108      | Inny        |
+| ORD0109      | Zakonczone  |
+| ORD0110      | Inny        |
+| ORD0111      | Inny        |
+| ORD0112      | Zakonczone  |
+| ORD0113      | Inny        |
+| ORD0114      | Inny        |
+| ORD0115      | Zakonczone  |
+| ORD0116      | Inny        |
+| ORD0117      | Inny        |
+| ORD0118      | Zakonczone  |
+| ORD0119      | Inny        |
+| ORD0120      | Inny        |
+| ORD0121      | Zakonczone  |
+| ORD0122      | Inny        |
+| ORD0123      | Inny        |
+| ORD0124      | Zakonczone  |
+| ORD0125      | Inny        |
+| ORD0126      | Inny        |
+| ORD0127      | Zakonczone  |
+| ORD0128      | Inny        |
+| ORD0129      | Inny        |
+| ORD0130      | Zakonczone  |
+| ORD0131      | Inny        |
+| ORD0132      | Inny        |
+| ORD0133      | Zakonczone  |
+| ORD0134      | Inny        |
+| ORD0135      | Inny        |
+| ORD0136      | Zakonczone  |
+| ORD0137      | Inny        |
+| ORD0138      | Inny        |
+| ORD0139      | Zakonczone  |
+| ORD0140      | Inny        |
+| ORD0141      | Inny        |
+| ORD0142      | Zakonczone  |
+| ORD0143      | Inny        |
+| ORD0144      | Inny        |
+| ORD0145      | Zakonczone  |
+| ORD0146      | Inny        |
+| ORD0147      | Inny        |
+| ORD0148      | Zakonczone  |
+| ORD0149      | Inny        |
+| ORD0150      | Inny        |
+| ORD0151      | Zakonczone  |
+| ORD0152      | Inny        |
+| ORD0153      | Inny        |
+| ORD0154      | Zakonczone  |
+| ORD0155      | Inny        |
+| ORD0156      | Inny        |
+| ORD0157      | Zakonczone  |
+| ORD0158      | Inny        |
+| ORD0159      | Inny        |
+| ORD0160      | Zakonczone  |
+| ORD0161      | Inny        |
+| ORD0162      | Inny        |
+| ORD0163      | Zakonczone  |
+| ORD0164      | Inny        |
+| ORD0165      | Inny        |
+| ORD0166      | Zakonczone  |
+| ORD0167      | Inny        |
+| ORD0168      | Inny        |
+| ORD0169      | Zakonczone  |
+| ORD0170      | Inny        |
++--------------+-------------+
+
++-------------------------------+---------------+
+| PRODUCT_NAME                  | Dostempnosc   |
++-------------------------------+---------------+
+| Laptop HP                     | Duza ilosc    |
+| Monitor Samsung               | Duza ilosc    |
+| Papier A4                     | Duza ilosc    |
+| Cukier 1kg                    | Duza ilosc    |
+| Biurko drewniane              | Duza ilosc    |
+| Mydlo Palmolive               | Duza ilosc    |
+| Plyn do naczyn                | Duza ilosc    |
+| Koszulka bawelniana           | Duza ilosc    |
+| Pilka nozna                   | Duza ilosc    |
+| Konewka 10L                   | Duza ilosc    |
+| Smartfon Samsung Galaxy       | Duza ilosc    |
+| Dlugopis Parker               | Duza ilosc    |
+| Maka pszenna 1kg              | Duza ilosc    |
+| Krzeslo biurowe               | Srednia ilosc |
+| Szampon do wlosow             | Duza ilosc    |
+| Proszek do prania             | Duza ilosc    |
+| Spodnie jeansowe              | Duza ilosc    |
+| Opona zimowa                  | Duza ilosc    |
+| Rekawice bokserskie           | Duza ilosc    |
+| Doniczka ceramiczna           | Duza ilosc    |
+| Tablet Lenovo                 | Duza ilosc    |
+| Zeszyt A4                     | Duza ilosc    |
+| Czekolada mleczna             | Duza ilosc    |
+| Lampa biurkowa                | Srednia ilosc |
+| Pasta do zebow                | Duza ilosc    |
+| srodek czyszczacy do lazienki | Duza ilosc    |
+| Kurtka zimowa damska          | Duza ilosc    |
+| Olejek silnikowy              | Duza ilosc    |
+| Buty do biegania              | Duza ilosc    |
+| Zraszacz do ogrodu            | Duza ilosc    |
+| Laptop Lenovo ThinkPad        | Srednia ilosc |
+| Smartwatch Apple Watch        | Srednia ilosc |
+| Tablet Samsung Galaxy Tab     | Srednia ilosc |
+| Sluchawki JBL Tune            | Duza ilosc    |
+| Monitor LG 27"                | Srednia ilosc |
+| Router TP-Link Archer         | Srednia ilosc |
+| Klawiatura Logitech           | Duza ilosc    |
+| Myszka Logitech MX            | Duza ilosc    |
+| Dysk SSD Kingston 1TB         | Srednia ilosc |
+| Powerbank Xiaomi 20000mAh     | Duza ilosc    |
+| Karta pamieci SanDisk 128GB   | Duza ilosc    |
+| Projektor Epson EB            | Mala ilosc    |
+| Glosnik LG XBoom              | Srednia ilosc |
+| Kamery internetowe C920       | Duza ilosc    |
+| UPS APC 650VA                 | Duza ilosc    |
+| Pendrive Kingston 64GB        | Duza ilosc    |
+| Czytnik e-book Kindle         | Srednia ilosc |
+| ladowarka Green Cell          | Duza ilosc    |
+| Kamera GoPro Hero             | Srednia ilosc |
+| Stacja dokujaca Dell          | Srednia ilosc |
+| Torba na laptop Case Logic    | Duza ilosc    |
+| Regulowany statyw             | Duza ilosc    |
+| Adapter HDMI-VGA              | Duza ilosc    |
+| Mikrofon Trust                | Srednia ilosc |
+| Switch TP-Link 5 port         | Duza ilosc    |
+| Toner HP 201A                 | Duza ilosc    |
+| Bindownica Fellowes           | Srednia ilosc |
+| Polka na dokumenty            | Duza ilosc    |
+| Notes A5 Oxford               | Duza ilosc    |
+| Skoroszyt plastikowy          | Duza ilosc    |
+| Segregator Bantex             | Duza ilosc    |
+| Markery Sharpie 4 szt         | Duza ilosc    |
+| Nozyczki biurowe              | Duza ilosc    |
+| Tasma klejaca Scotch          | Duza ilosc    |
+| Kalkulator Casio              | Srednia ilosc |
+| Pieczatka Trodat              | Srednia ilosc |
+| Klipsy do papieru             | Duza ilosc    |
+| Plecak na laptop              | Duza ilosc    |
+| Pojemnik na dlugopisy         | Duza ilosc    |
+| Koszulki na dokumenty         | Duza ilosc    |
+| Zszywacz Novus                | Duza ilosc    |
+| Stojak na katalogi            | Srednia ilosc |
+| Tasma dwustronna Tesa         | Duza ilosc    |
+| Dlugopis Bic 12 szt.          | Duza ilosc    |
+| Podkladka pod mysz            | Srednia ilosc |
+| Gumka Factis                  | Duza ilosc    |
+| Notes samoprzylepny           | Duza ilosc    |
+| Przekladki do segregatora     | Duza ilosc    |
+| Klamerki archiwizacyjne       | Duza ilosc    |
+| Szpilki biurowe Donau         | Duza ilosc    |
++-------------------------------+---------------+
+
++--------------+---------------------+
+| NUKK         | Tax_Info            |
++--------------+---------------------+
+| NULL         | Klient indywidualny |
+| NULL         | Klient indywidualny |
+| PL1234567890 | PL1234567890        |
+| PL0987654321 | PL0987654321        |
+| NULL         | Klient indywidualny |
+| PL5556667778 | PL5556667778        |
+| NULL         | Klient indywidualny |
+| PL1112223334 | PL1112223334        |
+| NULL         | Klient indywidualny |
+| PL9998887776 | PL9998887776        |
+| NULL         | Klient indywidualny |
+| NULL         | Klient indywidualny |
+| PL3334445556 | PL3334445556        |
+| PL7778889990 | PL7778889990        |
+| NULL         | Klient indywidualny |
+| PL5554443332 | PL5554443332        |
+| NULL         | Klient indywidualny |
+| PL2221113334 | PL2221113334        |
+| NULL         | Klient indywidualny |
+| PL6667778889 | PL6667778889        |
+| NULL         | Klient indywidualny |
+| PL9988776655 | PL9988776655        |
+| NULL         | Klient indywidualny |
+| PL4455667788 | PL4455667788        |
+| NULL         | Klient indywidualny |
+| PL1236547890 | PL1236547890        |
+| NULL         | Klient indywidualny |
+| PL7418529630 | PL7418529630        |
+| NULL         | Klient indywidualny |
+| PL3579514562 | PL3579514562        |
+| NULL         | Klient indywidualny |
+| PL8569472310 | PL8569472310        |
+| NULL         | Klient indywidualny |
+| PL7894561230 | PL7894561230        |
+| NULL         | Klient indywidualny |
+| PL6541237890 | PL6541237890        |
+| NULL         | Klient indywidualny |
+| PL3216549870 | PL3216549870        |
+| NULL         | Klient indywidualny |
+| PL1472583690 | PL1472583690        |
+| NULL         | Klient indywidualny |
+| PL7539514862 | PL7539514862        |
+| NULL         | Klient indywidualny |
+| PL9513572460 | PL9513572460        |
+| NULL         | Klient indywidualny |
+| PL3692581470 | PL3692581470        |
+| NULL         | Klient indywidualny |
+| PL8521479630 | PL8521479630        |
+| NULL         | Klient indywidualny |
+| PL9638527410 | PL9638527410        |
++--------------+---------------------+
+
++------------+-------------+
+| CITY       | Code_Prefix |
++------------+-------------+
+| Warszawa   | 00          |
+| Warszawa   | 00          |
+| Gdansk     | 80          |
+| Katowice   | 40          |
+| lodz       | 90          |
+| Warszawa   | 01          |
+| Poznan     | 60          |
+| Krakow     | 30          |
+| Szczecin   | 70          |
+| Olsztyn    | 10          |
+| Poznan     | 60          |
+| Gdansk     | 80          |
+| Warszawa   | 00          |
+| Krakow     | 30          |
+| lodz       | 90          |
+| Wroclaw    | 50          |
+| Rzeszow    | 35          |
+| Katowice   | 40          |
+| Szczecin   | 70          |
+| Olsztyn    | 10          |
+| Poznan     | 60          |
+| Warszawa   | 00          |
+| Gdansk     | 80          |
+| Krakow     | 30          |
+| lodz       | 90          |
+| Wroclaw    | 50          |
+| Rzeszow    | 35          |
+| Katowice   | 40          |
+| Szczecin   | 70          |
+| Olsztyn    | 10          |
+| Warszawa   | 00          |
+| Bydgoszcz  | 85          |
+| Poznan     | 60          |
+| Krakow     | 30          |
+| Katowice   | 40          |
+| Wroclaw    | 50          |
+| Lublin     | 20          |
+| Szczecin   | 70          |
+| Olsztyn    | 10          |
+| Gdansk     | 80          |
+| Nowy Sacz  | 34          |
+| Rybnik     | 44          |
+| Inowroclaw | 88          |
+| Wrzesnia   | 62          |
+| Plock      | 96          |
+| Chelm      | 21          |
+| Tarnow     | 33          |
+| Koszalin   | 71          |
+| Legnica    | 53          |
+| Rzeszow    | 35          |
++------------+-------------+
+
++------------+-----------------+
+| CITY       | Postal_Prefixes |
++------------+-----------------+
+| Bydgoszcz  | 85              |
+| Chelm      | 21              |
+| Gdansk     | 80              |
+| Inowroclaw | 88              |
+| Katowice   | 40              |
+| Koszalin   | 71              |
+| Krakow     | 30              |
+| Legnica    | 53              |
+| lodz       | 90              |
+| Lublin     | 20              |
+| Nowy Sacz  | 34              |
+| Olsztyn    | 10              |
+| Plock      | 96              |
+| Poznan     | 60              |
+| Rybnik     | 44              |
+| Rzeszow    | 35              |
+| Szczecin   | 70              |
+| Tarnow     | 33              |
+| Warszawa   | 00, 01          |
+| Wroclaw    | 50              |
+| Wrzesnia   | 62              |
++------------+-----------------+
+
+
+
++------------------+
+| Street_name_Only |
++------------------+
+| Dluga            |
+| Miodowa          |
+| Zielona          |
+| Krotka           |
+| Wesola           |
+| Jana Pawla II    |
+| Mickiewicza      |
+| Ogrodowa         |
+| Spacerowa        |
+| Dworcowa         |
+| Polna            |
+| Cicha            |
+| Wiosenna         |
+| Sloneczna        |
+| Rozana           |
+| Sadowa           |
+| Lesna            |
+| Jesionowa        |
+| Brzozowa         |
+| Piekna           |
+| Lipowa           |
+| Kwiatowa         |
+| Krotka           |
+| Orla             |
+| Wierzbowa        |
+| Debowa           |
+| Sosnowa          |
+| Grabowa          |
+| Modrzewiowa      |
+| Wolska           |
+| Jagodowa         |
+| Malinowa         |
+| Winna            |
+| Brzoskwiniowa    |
+| Wisniowa         |
+| Poziomkowa       |
+| Sliwkowa         |
+| Orzechowa        |
+| Morelowa         |
+| Lososiowa        |
+| Jastrzebia       |
+| Slowikowa        |
+| Zurawia          |
+| Sepia            |
+| Orla             |
+| Wilcza           |
+| Niedzwiedzia     |
+| Lisiarnia        |
+| Zajaca           |
+| Dzikiej Rozy     |
++------------------+
