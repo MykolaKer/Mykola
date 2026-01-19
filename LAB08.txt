@@ -1,0 +1,1520 @@
++----------------------------+----------------------+---------+----------+
+| FULL_NAME                  | street               | dlugosc | poczatek |
++----------------------------+----------------------+---------+----------+
+| Jan Kowalski               | ul. Dluga 12         |      12 | ul. D    |
+| Jan Kowalski               | ul. Miodowa 8        |      13 | ul. M    |
+| Tech Solutions Sp. z o.o.  | ul. Zielona 5        |      13 | ul. Z    |
+| Anna Nowak                 | ul. Krotka 10        |      13 | ul. K    |
+| Food Market SA             | ul. Wesola 22        |      13 | ul. W    |
+| Piotr Wisniewski           | al. Jana Pawla II 20 |      20 | al. J    |
+| AutoMax Sp. z o.o.         | ul. Mickiewicza 7    |      17 | ul. M    |
+| Karolina Kaczmarek         | ul. Ogrodowa 15      |      15 | ul. O    |
+| Meblex SA                  | ul. Spacerowa 3      |      15 | ul. S    |
+| Michal Pawlak              | ul. Dworcowa 9       |      14 | ul. D    |
+| Marek Wojcik               | ul. Polna 14         |      12 | ul. P    |
+| Iwona Dudek                | ul. Cicha 3          |      11 | ul. C    |
+| Fresh Food Sp. z o.o.      | ul. Wiosenna 22      |      15 | ul. W    |
+| TechWorld SA               | ul. Sloneczna 7      |      15 | ul. S    |
+| Rafal Zajac                | ul. Rozana 11        |      13 | ul. R    |
+| HomeDecor Sp. z o.o.       | ul. Sadowa 8         |      12 | ul. S    |
+| Magdalena Baran            | ul. Lesna 5          |      11 | ul. L    |
+| AutoParts SA               | ul. Jesionowa 20     |      16 | ul. J    |
+| Kamil Wilk                 | ul. Brzozowa 18      |      15 | ul. B    |
+| Eco Solutions Sp. z o.o.   | ul. Piekna 6         |      12 | ul. P    |
+| Paulina Malecka            | ul. Lipowa 9         |      12 | ul. L    |
+| FurniCo SA                 | ul. Kwiatowa 4       |      14 | ul. K    |
+| Jakub Sikora               | ul. Krotka 12        |      13 | ul. K    |
+| SportPro Sp. z o.o.        | ul. Orla 14          |      11 | ul. O    |
+| Anna Nowakowska            | ul. Wierzbowa 17     |      16 | ul. W    |
+| GardenPlus SA              | ul. Debowa 23        |      13 | ul. D    |
+| Marta Duda                 | ul. Sosnowa 29       |      14 | ul. S    |
+| Office Supplies Sp. z o.o. | ul. Grabowa 10       |      14 | ul. G    |
+| Tomasz Kaminski            | ul. Modrzewiowa 15   |      18 | ul. M    |
+| CleanHome SA               | ul. Wolska 19        |      13 | ul. W    |
+| Emilia Sadowska            | ul. Jagodowa 11      |      15 | ul. J    |
+| Market Super S.A.          | ul. Malinowa 5       |      14 | ul. M    |
+| Zenon Rutkowski            | ul. Winna 17         |      12 | ul. W    |
+| DigitalHouse Sp. z o.o.    | ul. Brzoskwiniowa 2  |      19 | ul. B    |
+| Julia Olszewska            | ul. Wisniowa 9       |      14 | ul. W    |
+| TechPlanet S.A.            | ul. Poziomkowa 12    |      17 | ul. P    |
+| Patryk Domanski            | ul. Sliwkowa 21      |      15 | ul. S    |
+| BestJobs Sp. z o.o.        | ul. Orzechowa 7      |      15 | ul. O    |
+| Monika Krysztofiak         | ul. Morelowa 33      |      15 | ul. M    |
+| EcoDrive S.A.              | ul. Lososiowa 15     |      16 | ul. L    |
+| Marek Chrzanowski          | ul. Jastrzebia 22    |      17 | ul. J    |
+| FoodWay S.A.               | ul. Slowikowa 29     |      16 | ul. S    |
+| Natalia Gorska             | ul. Zurawia 4        |      13 | ul. Z    |
+| GardenPro Sp. z o.o.       | ul. Sepia 16         |      12 | ul. S    |
+| Pawel Kaczmarek            | ul. Orla 8           |      10 | ul. O    |
+| PaperGroup S.A.            | ul. Wilcza 41        |      13 | ul. W    |
+| Joanna Czarnecka           | ul. Niedzwiedzia 18  |      19 | ul. N    |
+| Fitmarket Sp. z o.o.       | ul. Lisiarnia 27     |      16 | ul. L    |
+| Tomasz Wojcik              | ul. Zajaca 13        |      13 | ul. Z    |
+| WebCom S.A.                | ul. Dzikiej Rozy 5   |      18 | ul. D    |
++----------------------------+----------------------+---------+----------+
+
++--------------+-------------------+
+| SHORT_NAME   | ADDRESS_TYPE_NAME |
++--------------+-------------------+
+| Kowalski     | Inne              |
+| Kowalski     | Praca             |
+| Kowalski     | Domowy            |
+| Kowalski     | Magazyn           |
+| Kowalski     | Oddzial           |
+| Kowalski     | Fakturowania      |
+| Kowalski     | Dostawy           |
+| Kowalski     | Siedziba firmy    |
+| Kowalski     | Korespondencyjny  |
+| Kowalski     | Zamieszkania      |
+| Kowalski     | Inne              |
+| Kowalski     | Praca             |
+| Kowalski     | Domowy            |
+| Kowalski     | Magazyn           |
+| Kowalski     | Oddzial           |
+| Kowalski     | Fakturowania      |
+| Kowalski     | Dostawy           |
+| Kowalski     | Siedziba firmy    |
+| Kowalski     | Korespondencyjny  |
+| Kowalski     | Zamieszkania      |
+| Nowak        | Inne              |
+| Nowak        | Praca             |
+| Nowak        | Domowy            |
+| Nowak        | Magazyn           |
+| Nowak        | Oddzial           |
+| Nowak        | Fakturowania      |
+| Nowak        | Dostawy           |
+| Nowak        | Siedziba firmy    |
+| Nowak        | Korespondencyjny  |
+| Nowak        | Zamieszkania      |
+| TechSol      | Inne              |
+| TechSol      | Praca             |
+| TechSol      | Domowy            |
+| TechSol      | Magazyn           |
+| TechSol      | Oddzial           |
+| TechSol      | Fakturowania      |
+| TechSol      | Dostawy           |
+| TechSol      | Siedziba firmy    |
+| TechSol      | Korespondencyjny  |
+| TechSol      | Zamieszkania      |
+| FoodMarket   | Inne              |
+| FoodMarket   | Praca             |
+| FoodMarket   | Domowy            |
+| FoodMarket   | Magazyn           |
+| FoodMarket   | Oddzial           |
+| FoodMarket   | Fakturowania      |
+| FoodMarket   | Dostawy           |
+| FoodMarket   | Siedziba firmy    |
+| FoodMarket   | Korespondencyjny  |
+| FoodMarket   | Zamieszkania      |
+| Wisniewski   | Inne              |
+| Wisniewski   | Praca             |
+| Wisniewski   | Domowy            |
+| Wisniewski   | Magazyn           |
+| Wisniewski   | Oddzial           |
+| Wisniewski   | Fakturowania      |
+| Wisniewski   | Dostawy           |
+| Wisniewski   | Siedziba firmy    |
+| Wisniewski   | Korespondencyjny  |
+| Wisniewski   | Zamieszkania      |
+| AutoMax      | Inne              |
+| AutoMax      | Praca             |
+| AutoMax      | Domowy            |
+| AutoMax      | Magazyn           |
+| AutoMax      | Oddzial           |
+| AutoMax      | Fakturowania      |
+| AutoMax      | Dostawy           |
+| AutoMax      | Siedziba firmy    |
+| AutoMax      | Korespondencyjny  |
+| AutoMax      | Zamieszkania      |
+| Kaczmarek    | Inne              |
+| Kaczmarek    | Praca             |
+| Kaczmarek    | Domowy            |
+| Kaczmarek    | Magazyn           |
+| Kaczmarek    | Oddzial           |
+| Kaczmarek    | Fakturowania      |
+| Kaczmarek    | Dostawy           |
+| Kaczmarek    | Siedziba firmy    |
+| Kaczmarek    | Korespondencyjny  |
+| Kaczmarek    | Zamieszkania      |
+| Meblex       | Inne              |
+| Meblex       | Praca             |
+| Meblex       | Domowy            |
+| Meblex       | Magazyn           |
+| Meblex       | Oddzial           |
+| Meblex       | Fakturowania      |
+| Meblex       | Dostawy           |
+| Meblex       | Siedziba firmy    |
+| Meblex       | Korespondencyjny  |
+| Meblex       | Zamieszkania      |
+| Pawlak       | Inne              |
+| Pawlak       | Praca             |
+| Pawlak       | Domowy            |
+| Pawlak       | Magazyn           |
+| Pawlak       | Oddzial           |
+| Pawlak       | Fakturowania      |
+| Pawlak       | Dostawy           |
+| Pawlak       | Siedziba firmy    |
+| Pawlak       | Korespondencyjny  |
+| Pawlak       | Zamieszkania      |
+| EcoTrade     | NULL              |
+| Wojcik       | Inne              |
+| Wojcik       | Praca             |
+| Wojcik       | Domowy            |
+| Wojcik       | Magazyn           |
+| Wojcik       | Oddzial           |
+| Wojcik       | Fakturowania      |
+| Wojcik       | Dostawy           |
+| Wojcik       | Siedziba firmy    |
+| Wojcik       | Korespondencyjny  |
+| Wojcik       | Zamieszkania      |
+| Dudek        | Inne              |
+| Dudek        | Praca             |
+| Dudek        | Domowy            |
+| Dudek        | Magazyn           |
+| Dudek        | Oddzial           |
+| Dudek        | Fakturowania      |
+| Dudek        | Dostawy           |
+| Dudek        | Siedziba firmy    |
+| Dudek        | Korespondencyjny  |
+| Dudek        | Zamieszkania      |
+| FreshFood    | Inne              |
+| FreshFood    | Praca             |
+| FreshFood    | Domowy            |
+| FreshFood    | Magazyn           |
+| FreshFood    | Oddzial           |
+| FreshFood    | Fakturowania      |
+| FreshFood    | Dostawy           |
+| FreshFood    | Siedziba firmy    |
+| FreshFood    | Korespondencyjny  |
+| FreshFood    | Zamieszkania      |
+| TechWorld    | Inne              |
+| TechWorld    | Praca             |
+| TechWorld    | Domowy            |
+| TechWorld    | Magazyn           |
+| TechWorld    | Oddzial           |
+| TechWorld    | Fakturowania      |
+| TechWorld    | Dostawy           |
+| TechWorld    | Siedziba firmy    |
+| TechWorld    | Korespondencyjny  |
+| TechWorld    | Zamieszkania      |
+| Zajac        | Inne              |
+| Zajac        | Praca             |
+| Zajac        | Domowy            |
+| Zajac        | Magazyn           |
+| Zajac        | Oddzial           |
+| Zajac        | Fakturowania      |
+| Zajac        | Dostawy           |
+| Zajac        | Siedziba firmy    |
+| Zajac        | Korespondencyjny  |
+| Zajac        | Zamieszkania      |
+| HomeDecor    | Inne              |
+| HomeDecor    | Praca             |
+| HomeDecor    | Domowy            |
+| HomeDecor    | Magazyn           |
+| HomeDecor    | Oddzial           |
+| HomeDecor    | Fakturowania      |
+| HomeDecor    | Dostawy           |
+| HomeDecor    | Siedziba firmy    |
+| HomeDecor    | Korespondencyjny  |
+| HomeDecor    | Zamieszkania      |
+| Baran        | Inne              |
+| Baran        | Praca             |
+| Baran        | Domowy            |
+| Baran        | Magazyn           |
+| Baran        | Oddzial           |
+| Baran        | Fakturowania      |
+| Baran        | Dostawy           |
+| Baran        | Siedziba firmy    |
+| Baran        | Korespondencyjny  |
+| Baran        | Zamieszkania      |
+| AutoParts    | Inne              |
+| AutoParts    | Praca             |
+| AutoParts    | Domowy            |
+| AutoParts    | Magazyn           |
+| AutoParts    | Oddzial           |
+| AutoParts    | Fakturowania      |
+| AutoParts    | Dostawy           |
+| AutoParts    | Siedziba firmy    |
+| AutoParts    | Korespondencyjny  |
+| AutoParts    | Zamieszkania      |
+| Wilk         | Inne              |
+| Wilk         | Praca             |
+| Wilk         | Domowy            |
+| Wilk         | Magazyn           |
+| Wilk         | Oddzial           |
+| Wilk         | Fakturowania      |
+| Wilk         | Dostawy           |
+| Wilk         | Siedziba firmy    |
+| Wilk         | Korespondencyjny  |
+| Wilk         | Zamieszkania      |
+| EcoSol       | Inne              |
+| EcoSol       | Praca             |
+| EcoSol       | Domowy            |
+| EcoSol       | Magazyn           |
+| EcoSol       | Oddzial           |
+| EcoSol       | Fakturowania      |
+| EcoSol       | Dostawy           |
+| EcoSol       | Siedziba firmy    |
+| EcoSol       | Korespondencyjny  |
+| EcoSol       | Zamieszkania      |
+| Malecka      | Inne              |
+| Malecka      | Praca             |
+| Malecka      | Domowy            |
+| Malecka      | Magazyn           |
+| Malecka      | Oddzial           |
+| Malecka      | Fakturowania      |
+| Malecka      | Dostawy           |
+| Malecka      | Siedziba firmy    |
+| Malecka      | Korespondencyjny  |
+| Malecka      | Zamieszkania      |
+| FurniCo      | Inne              |
+| FurniCo      | Praca             |
+| FurniCo      | Domowy            |
+| FurniCo      | Magazyn           |
+| FurniCo      | Oddzial           |
+| FurniCo      | Fakturowania      |
+| FurniCo      | Dostawy           |
+| FurniCo      | Siedziba firmy    |
+| FurniCo      | Korespondencyjny  |
+| FurniCo      | Zamieszkania      |
+| Sikora       | Inne              |
+| Sikora       | Praca             |
+| Sikora       | Domowy            |
+| Sikora       | Magazyn           |
+| Sikora       | Oddzial           |
+| Sikora       | Fakturowania      |
+| Sikora       | Dostawy           |
+| Sikora       | Siedziba firmy    |
+| Sikora       | Korespondencyjny  |
+| Sikora       | Zamieszkania      |
+| SportPro     | Inne              |
+| SportPro     | Praca             |
+| SportPro     | Domowy            |
+| SportPro     | Magazyn           |
+| SportPro     | Oddzial           |
+| SportPro     | Fakturowania      |
+| SportPro     | Dostawy           |
+| SportPro     | Siedziba firmy    |
+| SportPro     | Korespondencyjny  |
+| SportPro     | Zamieszkania      |
+| Nowakowska   | Inne              |
+| Nowakowska   | Praca             |
+| Nowakowska   | Domowy            |
+| Nowakowska   | Magazyn           |
+| Nowakowska   | Oddzial           |
+| Nowakowska   | Fakturowania      |
+| Nowakowska   | Dostawy           |
+| Nowakowska   | Siedziba firmy    |
+| Nowakowska   | Korespondencyjny  |
+| Nowakowska   | Zamieszkania      |
+| GardenPlus   | Inne              |
+| GardenPlus   | Praca             |
+| GardenPlus   | Domowy            |
+| GardenPlus   | Magazyn           |
+| GardenPlus   | Oddzial           |
+| GardenPlus   | Fakturowania      |
+| GardenPlus   | Dostawy           |
+| GardenPlus   | Siedziba firmy    |
+| GardenPlus   | Korespondencyjny  |
+| GardenPlus   | Zamieszkania      |
+| Duda         | Inne              |
+| Duda         | Praca             |
+| Duda         | Domowy            |
+| Duda         | Magazyn           |
+| Duda         | Oddzial           |
+| Duda         | Fakturowania      |
+| Duda         | Dostawy           |
+| Duda         | Siedziba firmy    |
+| Duda         | Korespondencyjny  |
+| Duda         | Zamieszkania      |
+| OfficeSup    | Inne              |
+| OfficeSup    | Praca             |
+| OfficeSup    | Domowy            |
+| OfficeSup    | Magazyn           |
+| OfficeSup    | Oddzial           |
+| OfficeSup    | Fakturowania      |
+| OfficeSup    | Dostawy           |
+| OfficeSup    | Siedziba firmy    |
+| OfficeSup    | Korespondencyjny  |
+| OfficeSup    | Zamieszkania      |
+| Kaminski     | Inne              |
+| Kaminski     | Praca             |
+| Kaminski     | Domowy            |
+| Kaminski     | Magazyn           |
+| Kaminski     | Oddzial           |
+| Kaminski     | Fakturowania      |
+| Kaminski     | Dostawy           |
+| Kaminski     | Siedziba firmy    |
+| Kaminski     | Korespondencyjny  |
+| Kaminski     | Zamieszkania      |
+| CleanHome    | Inne              |
+| CleanHome    | Praca             |
+| CleanHome    | Domowy            |
+| CleanHome    | Magazyn           |
+| CleanHome    | Oddzial           |
+| CleanHome    | Fakturowania      |
+| CleanHome    | Dostawy           |
+| CleanHome    | Siedziba firmy    |
+| CleanHome    | Korespondencyjny  |
+| CleanHome    | Zamieszkania      |
+| Sadowska     | Inne              |
+| Sadowska     | Praca             |
+| Sadowska     | Domowy            |
+| Sadowska     | Magazyn           |
+| Sadowska     | Oddzial           |
+| Sadowska     | Fakturowania      |
+| Sadowska     | Dostawy           |
+| Sadowska     | Siedziba firmy    |
+| Sadowska     | Korespondencyjny  |
+| Sadowska     | Zamieszkania      |
+| MarketSuper  | Inne              |
+| MarketSuper  | Praca             |
+| MarketSuper  | Domowy            |
+| MarketSuper  | Magazyn           |
+| MarketSuper  | Oddzial           |
+| MarketSuper  | Fakturowania      |
+| MarketSuper  | Dostawy           |
+| MarketSuper  | Siedziba firmy    |
+| MarketSuper  | Korespondencyjny  |
+| MarketSuper  | Zamieszkania      |
+| Rutkowski    | Inne              |
+| Rutkowski    | Praca             |
+| Rutkowski    | Domowy            |
+| Rutkowski    | Magazyn           |
+| Rutkowski    | Oddzial           |
+| Rutkowski    | Fakturowania      |
+| Rutkowski    | Dostawy           |
+| Rutkowski    | Siedziba firmy    |
+| Rutkowski    | Korespondencyjny  |
+| Rutkowski    | Zamieszkania      |
+| DigitalHouse | Inne              |
+| DigitalHouse | Praca             |
+| DigitalHouse | Domowy            |
+| DigitalHouse | Magazyn           |
+| DigitalHouse | Oddzial           |
+| DigitalHouse | Fakturowania      |
+| DigitalHouse | Dostawy           |
+| DigitalHouse | Siedziba firmy    |
+| DigitalHouse | Korespondencyjny  |
+| DigitalHouse | Zamieszkania      |
+| Olszewska    | Inne              |
+| Olszewska    | Praca             |
+| Olszewska    | Domowy            |
+| Olszewska    | Magazyn           |
+| Olszewska    | Oddzial           |
+| Olszewska    | Fakturowania      |
+| Olszewska    | Dostawy           |
+| Olszewska    | Siedziba firmy    |
+| Olszewska    | Korespondencyjny  |
+| Olszewska    | Zamieszkania      |
+| TechPlanet   | Inne              |
+| TechPlanet   | Praca             |
+| TechPlanet   | Domowy            |
+| TechPlanet   | Magazyn           |
+| TechPlanet   | Oddzial           |
+| TechPlanet   | Fakturowania      |
+| TechPlanet   | Dostawy           |
+| TechPlanet   | Siedziba firmy    |
+| TechPlanet   | Korespondencyjny  |
+| TechPlanet   | Zamieszkania      |
+| Domanski     | Inne              |
+| Domanski     | Praca             |
+| Domanski     | Domowy            |
+| Domanski     | Magazyn           |
+| Domanski     | Oddzial           |
+| Domanski     | Fakturowania      |
+| Domanski     | Dostawy           |
+| Domanski     | Siedziba firmy    |
+| Domanski     | Korespondencyjny  |
+| Domanski     | Zamieszkania      |
+| BestJobs     | Inne              |
+| BestJobs     | Praca             |
+| BestJobs     | Domowy            |
+| BestJobs     | Magazyn           |
+| BestJobs     | Oddzial           |
+| BestJobs     | Fakturowania      |
+| BestJobs     | Dostawy           |
+| BestJobs     | Siedziba firmy    |
+| BestJobs     | Korespondencyjny  |
+| BestJobs     | Zamieszkania      |
+| Krysztofiak  | Inne              |
+| Krysztofiak  | Praca             |
+| Krysztofiak  | Domowy            |
+| Krysztofiak  | Magazyn           |
+| Krysztofiak  | Oddzial           |
+| Krysztofiak  | Fakturowania      |
+| Krysztofiak  | Dostawy           |
+| Krysztofiak  | Siedziba firmy    |
+| Krysztofiak  | Korespondencyjny  |
+| Krysztofiak  | Zamieszkania      |
+| EcoDrive     | Inne              |
+| EcoDrive     | Praca             |
+| EcoDrive     | Domowy            |
+| EcoDrive     | Magazyn           |
+| EcoDrive     | Oddzial           |
+| EcoDrive     | Fakturowania      |
+| EcoDrive     | Dostawy           |
+| EcoDrive     | Siedziba firmy    |
+| EcoDrive     | Korespondencyjny  |
+| EcoDrive     | Zamieszkania      |
+| Chrzanowski  | Inne              |
+| Chrzanowski  | Praca             |
+| Chrzanowski  | Domowy            |
+| Chrzanowski  | Magazyn           |
+| Chrzanowski  | Oddzial           |
+| Chrzanowski  | Fakturowania      |
+| Chrzanowski  | Dostawy           |
+| Chrzanowski  | Siedziba firmy    |
+| Chrzanowski  | Korespondencyjny  |
+| Chrzanowski  | Zamieszkania      |
+| FoodWay      | Inne              |
+| FoodWay      | Praca             |
+| FoodWay      | Domowy            |
+| FoodWay      | Magazyn           |
+| FoodWay      | Oddzial           |
+| FoodWay      | Fakturowania      |
+| FoodWay      | Dostawy           |
+| FoodWay      | Siedziba firmy    |
+| FoodWay      | Korespondencyjny  |
+| FoodWay      | Zamieszkania      |
+| Gorska       | Inne              |
+| Gorska       | Praca             |
+| Gorska       | Domowy            |
+| Gorska       | Magazyn           |
+| Gorska       | Oddzial           |
+| Gorska       | Fakturowania      |
+| Gorska       | Dostawy           |
+| Gorska       | Siedziba firmy    |
+| Gorska       | Korespondencyjny  |
+| Gorska       | Zamieszkania      |
+| GardenPro    | Inne              |
+| GardenPro    | Praca             |
+| GardenPro    | Domowy            |
+| GardenPro    | Magazyn           |
+| GardenPro    | Oddzial           |
+| GardenPro    | Fakturowania      |
+| GardenPro    | Dostawy           |
+| GardenPro    | Siedziba firmy    |
+| GardenPro    | Korespondencyjny  |
+| GardenPro    | Zamieszkania      |
+| Kaczmarek    | Inne              |
+| Kaczmarek    | Praca             |
+| Kaczmarek    | Domowy            |
+| Kaczmarek    | Magazyn           |
+| Kaczmarek    | Oddzial           |
+| Kaczmarek    | Fakturowania      |
+| Kaczmarek    | Dostawy           |
+| Kaczmarek    | Siedziba firmy    |
+| Kaczmarek    | Korespondencyjny  |
+| Kaczmarek    | Zamieszkania      |
+| PaperGroup   | Inne              |
+| PaperGroup   | Praca             |
+| PaperGroup   | Domowy            |
+| PaperGroup   | Magazyn           |
+| PaperGroup   | Oddzial           |
+| PaperGroup   | Fakturowania      |
+| PaperGroup   | Dostawy           |
+| PaperGroup   | Siedziba firmy    |
+| PaperGroup   | Korespondencyjny  |
+| PaperGroup   | Zamieszkania      |
+| Czarnecka    | Inne              |
+| Czarnecka    | Praca             |
+| Czarnecka    | Domowy            |
+| Czarnecka    | Magazyn           |
+| Czarnecka    | Oddzial           |
+| Czarnecka    | Fakturowania      |
+| Czarnecka    | Dostawy           |
+| Czarnecka    | Siedziba firmy    |
+| Czarnecka    | Korespondencyjny  |
+| Czarnecka    | Zamieszkania      |
+| Fitmarket    | Inne              |
+| Fitmarket    | Praca             |
+| Fitmarket    | Domowy            |
+| Fitmarket    | Magazyn           |
+| Fitmarket    | Oddzial           |
+| Fitmarket    | Fakturowania      |
+| Fitmarket    | Dostawy           |
+| Fitmarket    | Siedziba firmy    |
+| Fitmarket    | Korespondencyjny  |
+| Fitmarket    | Zamieszkania      |
+| Wojcik       | Inne              |
+| Wojcik       | Praca             |
+| Wojcik       | Domowy            |
+| Wojcik       | Magazyn           |
+| Wojcik       | Oddzial           |
+| Wojcik       | Fakturowania      |
+| Wojcik       | Dostawy           |
+| Wojcik       | Siedziba firmy    |
+| Wojcik       | Korespondencyjny  |
+| Wojcik       | Zamieszkania      |
+| WebCom       | Inne              |
+| WebCom       | Praca             |
+| WebCom       | Domowy            |
+| WebCom       | Magazyn           |
+| WebCom       | Oddzial           |
+| WebCom       | Fakturowania      |
+| WebCom       | Dostawy           |
+| WebCom       | Siedziba firmy    |
+| WebCom       | Korespondencyjny  |
+| WebCom       | Zamieszkania      |
++--------------+-------------------+
+
++-------------------------------------+---------------+-------+
+| PRODUCT_NAME                        | CATEGORY_NAME | skrot |
++-------------------------------------+---------------+-------+
+| Laptop HP                           | Elektronika   | Lap   |
+| Monitor Samsung                     | Elektronika   | Mon   |
+| Smartfon Samsung Galaxy             | Elektronika   | Sma   |
+| Tablet Lenovo                       | Elektronika   | Tab   |
+| Laptop Lenovo ThinkPad              | Elektronika   | Lap   |
+| Smartwatch Apple Watch              | Elektronika   | Sma   |
+| Tablet Samsung Galaxy Tab           | Elektronika   | Tab   |
+| Sluchawki JBL Tune                  | Elektronika   | Slu   |
+| Monitor LG 27"                      | Elektronika   | Mon   |
+| Router TP-Link Archer               | Elektronika   | Rou   |
+| Klawiatura Logitech                 | Elektronika   | Kla   |
+| Myszka Logitech MX                  | Elektronika   | Mys   |
+| Dysk SSD Kingston 1TB               | Elektronika   | Dys   |
+| Powerbank Xiaomi 20000mAh           | Elektronika   | Pow   |
+| Karta pamieci SanDisk 128GB         | Elektronika   | Kar   |
+| Projektor Epson EB                  | Elektronika   | Pro   |
+| Glosnik LG XBoom                    | Elektronika   | Glo   |
+| Kamery internetowe C920             | Elektronika   | Kam   |
+| UPS APC 650VA                       | Elektronika   | UPS   |
+| Pendrive Kingston 64GB              | Elektronika   | Pen   |
+| Czytnik e-book Kindle               | Elektronika   | Czy   |
+| ladowarka Green Cell                | Elektronika   | lad   |
+| Kamera GoPro Hero                   | Elektronika   | Kam   |
+| Stacja dokujaca Dell                | Elektronika   | Sta   |
+| Torba na laptop Case Logic          | Elektronika   | Tor   |
+| Regulowany statyw                   | Elektronika   | Reg   |
+| Adapter HDMI-VGA                    | Elektronika   | Ada   |
+| Mikrofon Trust                      | Elektronika   | Mik   |
+| Switch TP-Link 5 port               | Elektronika   | Swi   |
+| Podk?adka pod mysz                  | Elektronika   | Pod   |
+| Karta graficzna Nvidia GeForce 4080 | Elektronika   | Kar   |
+| Papier A4                           | Biuro         | Pap   |
+| Dlugopis Parker                     | Biuro         | Dlu   |
+| Zeszyt A4                           | Biuro         | Zes   |
+| Toner HP 201A                       | Biuro         | Ton   |
+| Bindownica Fellowes                 | Biuro         | Bin   |
+| Polka na dokumenty                  | Biuro         | Pol   |
+| Notes A5 Oxford                     | Biuro         | Not   |
+| Skoroszyt plastikowy                | Biuro         | Sko   |
+| Segregator Bantex                   | Biuro         | Seg   |
+| Markery Sharpie 4 szt               | Biuro         | Mar   |
+| Nozyczki biurowe                    | Biuro         | Noz   |
+| Tasma klejaca Scotch                | Biuro         | Tas   |
+| Kalkulator Casio                    | Biuro         | Kal   |
+| Pieczatka Trodat                    | Biuro         | Pie   |
+| Klipsy do papieru                   | Biuro         | Kli   |
+| Plecak na laptop                    | Biuro         | Ple   |
+| Pojemnik na dlugopisy               | Biuro         | Poj   |
+| Koszulki na dokumenty               | Biuro         | Kos   |
+| Zszywacz Novus                      | Biuro         | Zsz   |
+| Stojak na katalogi                  | Biuro         | Sto   |
+| Tasma dwustronna Tesa               | Biuro         | Tas   |
+| Dlugopis Bic 12 szt.                | Biuro         | Dlu   |
+| Podkladka pod mysz                  | Biuro         | Pod   |
+| Gumka Factis                        | Biuro         | Gum   |
+| Notes samoprzylepny                 | Biuro         | Not   |
+| Przekladki do segregatora           | Biuro         | Prz   |
+| Klamerki archiwizacyjne             | Biuro         | Kla   |
+| Szpilki biurowe Donau               | Biuro         | Szp   |
+| Cukier 1kg                          | Spozywcze     | Cuk   |
+| Maka pszenna 1kg                    | Spozywcze     | Mak   |
+| Czekolada mleczna                   | Spozywcze     | Cze   |
+| Biurko drewniane                    | Meble         | Biu   |
+| Krzeslo biurowe                     | Meble         | Krz   |
+| Lampa biurkowa                      | Meble         | Lam   |
+| Biurko elektryczne                  | Meble         | Biu   |
+| Szafka biurowa                      | Meble         | Sza   |
+| Mydlo Palmolive                     | Higiena       | Myd   |
+| Szampon do wlosow                   | Higiena       | Sza   |
+| Pasta do zebow                      | Higiena       | Pas   |
+| Plyn do naczyn                      | Chemia        | Ply   |
+| Proszek do prania                   | Chemia        | Pro   |
+| srodek czyszczacy do lazienki       | Chemia        | sro   |
+| Koszulka bawelniana                 | Odziez        | Kos   |
+| Spodnie jeansowe                    | Odziez        | Spo   |
+| Kurtka zimowa damska                | Odziez        | Kur   |
+| Opona zimowa                        | Motoryzacja   | Opo   |
+| Olejek silnikowy                    | Motoryzacja   | Ole   |
+| Pilka nozna                         | Sport         | Pil   |
+| Rekawice bokserskie                 | Sport         | Rek   |
+| Buty do biegania                    | Sport         | But   |
+| Konewka 10L                         | Ogrod         | Kon   |
+| Doniczka ceramiczna                 | Ogrod         | Don   |
+| Zraszacz do ogrodu                  | Ogrod         | Zra   |
++-------------------------------------+---------------+-------+
+
++-------------------------------+-----------------------------------------------------------+
+| PRODUCT_NAME                  | DESCRIPTION                                               |
++-------------------------------+-----------------------------------------------------------+
+| Laptop HP                     | Laptop 15 cali z dyskiem SSD 512GB                        |
+| Monitor Samsung               | Monitor 24" LED                                           |
+| Papier A4                     | Recznik papierowy do drukarki                             |
+| Cukier 1kg                    | Cukier bialy                                              |
+| Biurko drewniane              | Biurko klasyczne z szufladami                             |
+| Mydlo Palmolive               | Plynne mydlo do rak                                       |
+| Plyn do naczyn                | Fairy 1L                                                  |
+| Koszulka bawelniana           | T-shirt rozmiar M                                         |
+| Pilka nozna                   | Pilka skorzana rozmiar 5                                  |
+| Konewka 10L                   | Do podlewania ogrodu                                      |
+| Smartfon Samsung Galaxy       | Smartfon z ekranem 6.4 cala, 128GB pamieci                |
+| Dlugopis Parker               | Wysokiej jakosci dlugopis z niebieskim atramentem         |
+| Maka pszenna 1kg              | Maka do wypiekow, 1 kg opakowanie                         |
+| Krzeslo biurowe               | Ergonomiczne krzeslo z regulacja wysokosci                |
+| Szampon do wlosow             | Szampon przeciwlupiezowy 250 ml                           |
+| Proszek do prania             | Proszek do prania 3 kg, skuteczny w niskich temperaturach |
+| Spodnie jeansowe              | Klasyczne jeansy meskie, rozmiar M                        |
+| Opona zimowa                  | Opona zimowa 205/55 R16                                   |
+| Rekawice bokserskie           | Rekawice bokserskie rozmiar L, skorzane                   |
+| Doniczka ceramiczna           | Doniczka na kwiaty o pojemnosci 2 litrow                  |
+| Tablet Lenovo                 | Tablet Android 10 cali, 64GB pamieci                      |
+| Zeszyt A4                     | Zeszyt w linie, 60 kartek                                 |
+| Czekolada mleczna             | Czekolada mleczna 100g                                    |
+| Lampa biurkowa                | Lampa LED z regulacja jasnosci                            |
+| Pasta do zebow                | Pasta wybielajaca 75 ml                                   |
+| srodek czyszczacy do lazienki | Preparat usuwajacy kamien i brud                          |
+| Kurtka zimowa damska          | Kurtka ocieplana, rozmiar L                               |
+| Olejek silnikowy              | Olejek syntetyczny 5W-30, 4L                              |
+| Buty do biegania              | Buty sportowe damskie, rozmiar 38                         |
+| Zraszacz do ogrodu            | Zraszacz regulowany do trawnika                           |
+| Laptop Lenovo ThinkPad        | Biznesowy laptop 14 cali                                  |
+| Smartwatch Apple Watch        | Smartwatch GPS 44mm                                       |
+| Tablet Samsung Galaxy Tab     | Tablet 9.7 cala, 64GB                                     |
+| Sluchawki JBL Tune            | Bezprzewodowe sluchawki bluetooth                         |
+| Monitor LG 27"                | Monitor IPS 27 cali                                       |
+| Router TP-Link Archer         | Router WiFi AC1200                                        |
+| Klawiatura Logitech           | Klawiatura mechaniczna                                    |
+| Myszka Logitech MX            | Bezprzewodowa myszka                                      |
+| Dysk SSD Kingston 1TB         | Dysk SSD NVMe 1TB                                         |
+| Powerbank Xiaomi 20000mAh     | Powerbank USB-C                                           |
+| Toner HP 201A                 | Toner laserowy do drukarki                                |
+| Bindownica Fellowes           | Bindownica dokumentow                                     |
+| Polka na dokumenty            | Metalowa, czarna                                          |
+| Notes A5 Oxford               | Notes w linie 120 kartek                                  |
+| Skoroszyt plastikowy          | Kolor niebieski                                           |
+| Segregator Bantex             | Segregator A4 75mm                                        |
+| Markery Sharpie 4 szt         | Kolorowe markery permanentne                              |
+| Nozyczki biurowe              | Nozyczki 15cm                                             |
+| Tasma klejaca Scotch          | Tasma przezroczysta 25m                                   |
+| Kalkulator Casio              | Kalkulator biurowy MS-20S                                 |
++-------------------------------+-----------------------------------------------------------+
+
++----------------------------+--------------+------------+-------------------+
+| FULL_NAME                  | ORDER_NUMBER | ORDER_DATE | dni_od_zamowienia |
++----------------------------+--------------+------------+-------------------+
+| Jan Kowalski               | ORD0001      | 2025-01-01 |               372 |
+| Jan Kowalski               | ORD0011      | 2025-01-11 |               362 |
+| Jan Kowalski               | ORD0031      | 2025-02-01 |               341 |
+| Jan Kowalski               | ORD0061      | 2025-03-03 |               311 |
+| Jan Kowalski               | ORD0071      | 2025-03-13 |               301 |
+| Jan Kowalski               | ORD0081      | 2025-03-23 |               291 |
+| Jan Kowalski               | ORD0091      | 2025-04-02 |               281 |
+| Anna Nowak                 | ORD0002      | 2025-01-05 |               368 |
+| Anna Nowak                 | ORD0012      | 2025-01-12 |               361 |
+| Anna Nowak                 | ORD0022      | 2025-01-22 |               351 |
+| Anna Nowak                 | ORD0032      | 2025-02-02 |               340 |
+| Anna Nowak                 | ORD0042      | 2025-02-12 |               330 |
+| Anna Nowak                 | ORD0052      | 2025-02-22 |               320 |
+| Anna Nowak                 | ORD0062      | 2025-03-04 |               310 |
+| Anna Nowak                 | ORD0082      | 2025-03-24 |               290 |
+| Anna Nowak                 | ORD0092      | 2025-04-03 |               280 |
+| Tech Solutions Sp. z o.o.  | ORD0003      | 2025-02-10 |               332 |
+| Tech Solutions Sp. z o.o.  | ORD0013      | 2025-01-13 |               360 |
+| Tech Solutions Sp. z o.o.  | ORD0023      | 2025-01-23 |               350 |
+| Tech Solutions Sp. z o.o.  | ORD0033      | 2025-02-03 |               339 |
+| Tech Solutions Sp. z o.o.  | ORD0043      | 2025-02-13 |               329 |
+| Tech Solutions Sp. z o.o.  | ORD0053      | 2025-02-23 |               319 |
+| Tech Solutions Sp. z o.o.  | ORD0063      | 2025-03-05 |               309 |
+| Tech Solutions Sp. z o.o.  | ORD0073      | 2025-03-15 |               299 |
+| Tech Solutions Sp. z o.o.  | ORD0083      | 2025-03-25 |               289 |
+| Tech Solutions Sp. z o.o.  | ORD0093      | 2025-04-04 |               279 |
+| Food Market SA             | ORD0004      | 2025-03-11 |               303 |
+| Food Market SA             | ORD0014      | 2025-01-14 |               359 |
+| Food Market SA             | ORD0024      | 2025-01-24 |               349 |
+| Food Market SA             | ORD0034      | 2025-02-04 |               338 |
+| Food Market SA             | ORD0044      | 2025-02-14 |               328 |
+| Food Market SA             | ORD0054      | 2025-02-24 |               318 |
+| Food Market SA             | ORD0064      | 2025-03-06 |               308 |
+| Food Market SA             | ORD0074      | 2025-03-16 |               298 |
+| Food Market SA             | ORD0084      | 2025-03-26 |               288 |
+| Food Market SA             | ORD0094      | 2025-04-05 |               278 |
+| AutoMax Sp. z o.o.         | ORD0006      | 2025-05-15 |               238 |
+| AutoMax Sp. z o.o.         | ORD0016      | 2025-01-16 |               357 |
+| AutoMax Sp. z o.o.         | ORD0026      | 2025-01-26 |               347 |
+| AutoMax Sp. z o.o.         | ORD0036      | 2025-02-06 |               336 |
+| AutoMax Sp. z o.o.         | ORD0056      | 2025-02-26 |               316 |
+| AutoMax Sp. z o.o.         | ORD0066      | 2025-03-08 |               306 |
+| AutoMax Sp. z o.o.         | ORD0076      | 2025-03-18 |               296 |
+| AutoMax Sp. z o.o.         | ORD0086      | 2025-03-28 |               286 |
+| AutoMax Sp. z o.o.         | ORD0096      | 2025-04-07 |               276 |
+| Karolina Kaczmarek         | ORD0007      | 2025-06-02 |               220 |
+| Karolina Kaczmarek         | ORD0017      | 2025-01-17 |               356 |
+| Karolina Kaczmarek         | ORD0027      | 2025-01-27 |               346 |
+| Karolina Kaczmarek         | ORD0037      | 2025-02-07 |               335 |
+| Karolina Kaczmarek         | ORD0047      | 2025-02-17 |               325 |
+| Karolina Kaczmarek         | ORD0057      | 2025-02-27 |               315 |
+| Karolina Kaczmarek         | ORD0067      | 2025-03-09 |               305 |
+| Karolina Kaczmarek         | ORD0077      | 2025-03-19 |               295 |
+| Karolina Kaczmarek         | ORD0087      | 2025-03-29 |               285 |
+| Karolina Kaczmarek         | ORD0097      | 2025-04-08 |               275 |
+| Meblex SA                  | ORD0008      | 2025-07-09 |               183 |
+| Meblex SA                  | ORD0018      | 2025-01-18 |               355 |
+| Meblex SA                  | ORD0038      | 2025-02-08 |               334 |
+| Meblex SA                  | ORD0048      | 2025-02-18 |               324 |
+| Meblex SA                  | ORD0058      | 2025-02-28 |               314 |
+| Meblex SA                  | ORD0068      | 2025-03-10 |               304 |
+| Meblex SA                  | ORD0078      | 2025-03-20 |               294 |
+| Meblex SA                  | ORD0088      | 2025-03-30 |               284 |
+| Meblex SA                  | ORD0098      | 2025-04-09 |               274 |
+| Michal Pawlak              | ORD0009      | 2025-08-03 |               158 |
+| Michal Pawlak              | ORD0019      | 2025-01-19 |               354 |
+| Michal Pawlak              | ORD0029      | 2025-01-29 |               344 |
+| Michal Pawlak              | ORD0039      | 2025-02-09 |               333 |
+| Michal Pawlak              | ORD0049      | 2025-02-19 |               323 |
+| Michal Pawlak              | ORD0059      | 2025-03-01 |               313 |
+| Michal Pawlak              | ORD0069      | 2025-03-11 |               303 |
+| Michal Pawlak              | ORD0079      | 2025-03-21 |               293 |
+| Michal Pawlak              | ORD0089      | 2025-03-31 |               283 |
+| Michal Pawlak              | ORD0099      | 2025-04-10 |               273 |
+| Marek Wojcik               | ORD0005      | 2025-04-18 |               265 |
+| Iwona Dudek                | ORD0010      | 2025-09-10 |               120 |
+| Fresh Food Sp. z o.o.      | ORD0015      | 2025-01-15 |               358 |
+| Fresh Food Sp. z o.o.      | ORD0021      | 2025-01-21 |               352 |
+| Fresh Food Sp. z o.o.      | ORD0028      | 2025-01-28 |               345 |
+| TechWorld SA               | ORD0020      | 2025-01-20 |               353 |
+| Rafal Zajac                | ORD0025      | 2025-01-25 |               348 |
+| HomeDecor Sp. z o.o.       | ORD0030      | 2025-01-30 |               343 |
+| Magdalena Baran            | ORD0035      | 2025-02-05 |               337 |
+| AutoParts SA               | ORD0040      | 2025-02-10 |               332 |
+| Kamil Wilk                 | ORD0045      | 2025-02-15 |               327 |
+| Eco Solutions Sp. z o.o.   | ORD0050      | 2025-02-20 |               322 |
+| Paulina Malecka            | ORD0046      | 2025-02-16 |               326 |
+| Paulina Malecka            | ORD0055      | 2025-02-25 |               317 |
+| FurniCo SA                 | ORD0060      | 2025-03-02 |               312 |
+| Jakub Sikora               | ORD0065      | 2025-03-07 |               307 |
+| SportPro Sp. z o.o.        | ORD0070      | 2025-03-12 |               302 |
+| Anna Nowakowska            | ORD0075      | 2025-03-17 |               297 |
+| GardenPlus SA              | ORD0080      | 2025-03-22 |               292 |
+| Marta Duda                 | ORD0072      | 2025-03-14 |               300 |
+| Marta Duda                 | ORD0085      | 2025-03-27 |               287 |
+| Office Supplies Sp. z o.o. | ORD0051      | 2025-02-21 |               321 |
+| Office Supplies Sp. z o.o. | ORD0090      | 2025-04-01 |               282 |
+| Tomasz Kaminski            | ORD0095      | 2025-04-06 |               277 |
+| CleanHome SA               | ORD0041      | 2025-02-11 |               331 |
+| CleanHome SA               | ORD0100      | 2025-04-11 |               272 |
+| Emilia Sadowska            | ORD0101      | 2025-04-12 |               271 |
+| Emilia Sadowska            | ORD0102      | 2025-04-22 |               261 |
+| Emilia Sadowska            | ORD0103      | 2025-05-02 |               251 |
+| Emilia Sadowska            | ORD0161      | 2025-06-01 |               221 |
+| Market Super S.A.          | ORD0104      | 2025-04-13 |               270 |
+| Market Super S.A.          | ORD0105      | 2025-04-23 |               260 |
+| Market Super S.A.          | ORD0106      | 2025-05-03 |               250 |
+| Market Super S.A.          | ORD0162      | 2025-06-02 |               220 |
+| Zenon Rutkowski            | ORD0107      | 2025-04-14 |               269 |
+| Zenon Rutkowski            | ORD0108      | 2025-04-24 |               259 |
+| Zenon Rutkowski            | ORD0109      | 2025-05-04 |               249 |
+| Zenon Rutkowski            | ORD0163      | 2025-06-03 |               219 |
+| DigitalHouse Sp. z o.o.    | ORD0110      | 2025-04-15 |               268 |
+| DigitalHouse Sp. z o.o.    | ORD0111      | 2025-04-25 |               258 |
+| DigitalHouse Sp. z o.o.    | ORD0112      | 2025-05-05 |               248 |
+| DigitalHouse Sp. z o.o.    | ORD0164      | 2025-06-04 |               218 |
+| Julia Olszewska            | ORD0113      | 2025-04-16 |               267 |
+| Julia Olszewska            | ORD0114      | 2025-04-26 |               257 |
+| Julia Olszewska            | ORD0115      | 2025-05-06 |               247 |
+| Julia Olszewska            | ORD0165      | 2025-06-05 |               217 |
+| TechPlanet S.A.            | ORD0116      | 2025-04-17 |               266 |
+| TechPlanet S.A.            | ORD0117      | 2025-04-27 |               256 |
+| TechPlanet S.A.            | ORD0118      | 2025-05-07 |               246 |
+| TechPlanet S.A.            | ORD0166      | 2025-06-06 |               216 |
+| Patryk Domanski            | ORD0119      | 2025-04-18 |               265 |
+| Patryk Domanski            | ORD0120      | 2025-04-28 |               255 |
+| Patryk Domanski            | ORD0121      | 2025-05-08 |               245 |
+| Patryk Domanski            | ORD0167      | 2025-06-07 |               215 |
+| BestJobs Sp. z o.o.        | ORD0122      | 2025-04-19 |               264 |
+| BestJobs Sp. z o.o.        | ORD0123      | 2025-04-29 |               254 |
+| BestJobs Sp. z o.o.        | ORD0124      | 2025-05-09 |               244 |
+| BestJobs Sp. z o.o.        | ORD0168      | 2025-06-08 |               214 |
+| Monika Krysztofiak         | ORD0125      | 2025-04-20 |               263 |
+| Monika Krysztofiak         | ORD0126      | 2025-04-30 |               253 |
+| Monika Krysztofiak         | ORD0127      | 2025-05-10 |               243 |
+| Monika Krysztofiak         | ORD0169      | 2025-06-09 |               213 |
+| EcoDrive S.A.              | ORD0128      | 2025-04-21 |               262 |
+| EcoDrive S.A.              | ORD0129      | 2025-05-01 |               252 |
+| EcoDrive S.A.              | ORD0130      | 2025-05-11 |               242 |
+| EcoDrive S.A.              | ORD0170      | 2025-06-10 |               212 |
+| Marek Chrzanowski          | ORD0131      | 2025-04-22 |               261 |
+| Marek Chrzanowski          | ORD0132      | 2025-05-02 |               251 |
+| Marek Chrzanowski          | ORD0133      | 2025-05-12 |               241 |
+| FoodWay S.A.               | ORD0134      | 2025-04-23 |               260 |
+| FoodWay S.A.               | ORD0135      | 2025-05-03 |               250 |
+| FoodWay S.A.               | ORD0136      | 2025-05-13 |               240 |
+| Natalia Gorska             | ORD0137      | 2025-04-24 |               259 |
+| Natalia Gorska             | ORD0138      | 2025-05-04 |               249 |
+| Natalia Gorska             | ORD0139      | 2025-05-14 |               239 |
+| GardenPro Sp. z o.o.       | ORD0140      | 2025-04-25 |               258 |
+| GardenPro Sp. z o.o.       | ORD0141      | 2025-05-05 |               248 |
+| GardenPro Sp. z o.o.       | ORD0142      | 2025-05-15 |               238 |
+| Pawel Kaczmarek            | ORD0143      | 2025-04-26 |               257 |
+| Pawel Kaczmarek            | ORD0144      | 2025-05-06 |               247 |
+| Pawel Kaczmarek            | ORD0145      | 2025-05-16 |               237 |
+| PaperGroup S.A.            | ORD0146      | 2025-04-27 |               256 |
+| PaperGroup S.A.            | ORD0147      | 2025-05-07 |               246 |
+| PaperGroup S.A.            | ORD0148      | 2025-05-17 |               236 |
+| Joanna Czarnecka           | ORD0149      | 2025-04-28 |               255 |
+| Joanna Czarnecka           | ORD0150      | 2025-05-08 |               245 |
+| Joanna Czarnecka           | ORD0151      | 2025-05-18 |               235 |
+| Fitmarket Sp. z o.o.       | ORD0152      | 2025-04-29 |               254 |
+| Fitmarket Sp. z o.o.       | ORD0153      | 2025-05-09 |               244 |
+| Fitmarket Sp. z o.o.       | ORD0154      | 2025-05-19 |               234 |
+| Tomasz Wojcik              | ORD0155      | 2025-04-30 |               253 |
+| Tomasz Wojcik              | ORD0156      | 2025-05-10 |               243 |
+| Tomasz Wojcik              | ORD0157      | 2025-05-20 |               233 |
+| WebCom S.A.                | ORD0158      | 2025-05-01 |               252 |
+| WebCom S.A.                | ORD0159      | 2025-05-11 |               242 |
+| WebCom S.A.                | ORD0160      | 2025-05-21 |               232 |
++----------------------------+--------------+------------+-------------------+
+
++----------+------------+--------------+------------------+
+| ORDER_ID | ORDER_DATE | STATUS_NAME  | termin_platnosci |
++----------+------------+--------------+------------------+
+|        1 | 2025-01-01 | Nowe         | 2025-01-15       |
+|        4 | 2025-03-11 | Nowe         | 2025-03-25       |
+|       11 | 2025-01-11 | Nowe         | 2025-01-25       |
+|       14 | 2025-01-14 | Nowe         | 2025-01-28       |
+|       21 | 2025-01-21 | Nowe         | 2025-02-04       |
+|       24 | 2025-01-24 | Nowe         | 2025-02-07       |
+|       31 | 2025-02-01 | Nowe         | 2025-02-15       |
+|       34 | 2025-02-04 | Nowe         | 2025-02-18       |
+|       41 | 2025-02-11 | Nowe         | 2025-02-25       |
+|       44 | 2025-02-14 | Nowe         | 2025-02-28       |
+|       51 | 2025-02-21 | Nowe         | 2025-03-07       |
+|       54 | 2025-02-24 | Nowe         | 2025-03-10       |
+|       61 | 2025-03-03 | Nowe         | 2025-03-17       |
+|       64 | 2025-03-06 | Nowe         | 2025-03-20       |
+|       71 | 2025-03-13 | Nowe         | 2025-03-27       |
+|       74 | 2025-03-16 | Nowe         | 2025-03-30       |
+|       81 | 2025-03-23 | Nowe         | 2025-04-06       |
+|       84 | 2025-03-26 | Nowe         | 2025-04-09       |
+|       91 | 2025-04-02 | Nowe         | 2025-04-16       |
+|       94 | 2025-04-05 | Nowe         | 2025-04-19       |
+|      101 | 2025-04-12 | Nowe         | 2025-04-26       |
+|      104 | 2025-04-13 | Nowe         | 2025-04-27       |
+|      107 | 2025-04-14 | Nowe         | 2025-04-28       |
+|      110 | 2025-04-15 | Nowe         | 2025-04-29       |
+|      113 | 2025-04-16 | Nowe         | 2025-04-30       |
+|      116 | 2025-04-17 | Nowe         | 2025-05-01       |
+|      119 | 2025-04-18 | Nowe         | 2025-05-02       |
+|      122 | 2025-04-19 | Nowe         | 2025-05-03       |
+|      125 | 2025-04-20 | Nowe         | 2025-05-04       |
+|      128 | 2025-04-21 | Nowe         | 2025-05-05       |
+|      131 | 2025-04-22 | Nowe         | 2025-05-06       |
+|      134 | 2025-04-23 | Nowe         | 2025-05-07       |
+|      137 | 2025-04-24 | Nowe         | 2025-05-08       |
+|      140 | 2025-04-25 | Nowe         | 2025-05-09       |
+|      143 | 2025-04-26 | Nowe         | 2025-05-10       |
+|      146 | 2025-04-27 | Nowe         | 2025-05-11       |
+|      149 | 2025-04-28 | Nowe         | 2025-05-12       |
+|      152 | 2025-04-29 | Nowe         | 2025-05-13       |
+|      155 | 2025-04-30 | Nowe         | 2025-05-14       |
+|      158 | 2025-05-01 | Nowe         | 2025-05-15       |
+|      161 | 2025-06-01 | Nowe         | 2025-06-15       |
+|      164 | 2025-06-04 | Nowe         | 2025-06-18       |
+|      167 | 2025-06-07 | Nowe         | 2025-06-21       |
+|      170 | 2025-06-10 | Nowe         | 2025-06-24       |
+|        2 | 2025-01-05 | W realizacji | 2025-01-19       |
+|        5 | 2025-04-18 | W realizacji | 2025-05-02       |
+|       12 | 2025-01-12 | W realizacji | 2025-01-26       |
+|       15 | 2025-01-15 | W realizacji | 2025-01-29       |
+|       22 | 2025-01-22 | W realizacji | 2025-02-05       |
+|       25 | 2025-01-25 | W realizacji | 2025-02-08       |
+|       32 | 2025-02-02 | W realizacji | 2025-02-16       |
+|       35 | 2025-02-05 | W realizacji | 2025-02-19       |
+|       42 | 2025-02-12 | W realizacji | 2025-02-26       |
+|       45 | 2025-02-15 | W realizacji | 2025-03-01       |
+|       52 | 2025-02-22 | W realizacji | 2025-03-08       |
+|       55 | 2025-02-25 | W realizacji | 2025-03-11       |
+|       62 | 2025-03-04 | W realizacji | 2025-03-18       |
+|       65 | 2025-03-07 | W realizacji | 2025-03-21       |
+|       72 | 2025-03-14 | W realizacji | 2025-03-28       |
+|       75 | 2025-03-17 | W realizacji | 2025-03-31       |
+|       82 | 2025-03-24 | W realizacji | 2025-04-07       |
+|       85 | 2025-03-27 | W realizacji | 2025-04-10       |
+|       92 | 2025-04-03 | W realizacji | 2025-04-17       |
+|       95 | 2025-04-06 | W realizacji | 2025-04-20       |
+|      102 | 2025-04-22 | W realizacji | 2025-05-06       |
+|      105 | 2025-04-23 | W realizacji | 2025-05-07       |
+|      108 | 2025-04-24 | W realizacji | 2025-05-08       |
+|      111 | 2025-04-25 | W realizacji | 2025-05-09       |
+|      114 | 2025-04-26 | W realizacji | 2025-05-10       |
+|      117 | 2025-04-27 | W realizacji | 2025-05-11       |
+|      120 | 2025-04-28 | W realizacji | 2025-05-12       |
+|      123 | 2025-04-29 | W realizacji | 2025-05-13       |
+|      126 | 2025-04-30 | W realizacji | 2025-05-14       |
+|      129 | 2025-05-01 | W realizacji | 2025-05-15       |
+|      132 | 2025-05-02 | W realizacji | 2025-05-16       |
+|      135 | 2025-05-03 | W realizacji | 2025-05-17       |
+|      138 | 2025-05-04 | W realizacji | 2025-05-18       |
+|      141 | 2025-05-05 | W realizacji | 2025-05-19       |
+|      144 | 2025-05-06 | W realizacji | 2025-05-20       |
+|      147 | 2025-05-07 | W realizacji | 2025-05-21       |
+|      150 | 2025-05-08 | W realizacji | 2025-05-22       |
+|      153 | 2025-05-09 | W realizacji | 2025-05-23       |
+|      156 | 2025-05-10 | W realizacji | 2025-05-24       |
+|      159 | 2025-05-11 | W realizacji | 2025-05-25       |
+|      162 | 2025-06-02 | W realizacji | 2025-06-16       |
+|      165 | 2025-06-05 | W realizacji | 2025-06-19       |
+|      168 | 2025-06-08 | W realizacji | 2025-06-22       |
+|        3 | 2025-02-10 | Zrealizowane | 2025-02-24       |
+|        6 | 2025-05-15 | Zrealizowane | 2025-05-29       |
+|       13 | 2025-01-13 | Zrealizowane | 2025-01-27       |
+|       16 | 2025-01-16 | Zrealizowane | 2025-01-30       |
+|       23 | 2025-01-23 | Zrealizowane | 2025-02-06       |
+|       26 | 2025-01-26 | Zrealizowane | 2025-02-09       |
+|       33 | 2025-02-03 | Zrealizowane | 2025-02-17       |
+|       36 | 2025-02-06 | Zrealizowane | 2025-02-20       |
+|       43 | 2025-02-13 | Zrealizowane | 2025-02-27       |
+|       46 | 2025-02-16 | Zrealizowane | 2025-03-02       |
+|       53 | 2025-02-23 | Zrealizowane | 2025-03-09       |
+|       56 | 2025-02-26 | Zrealizowane | 2025-03-12       |
+|       63 | 2025-03-05 | Zrealizowane | 2025-03-19       |
+|       66 | 2025-03-08 | Zrealizowane | 2025-03-22       |
+|       73 | 2025-03-15 | Zrealizowane | 2025-03-29       |
+|       76 | 2025-03-18 | Zrealizowane | 2025-04-01       |
+|       83 | 2025-03-25 | Zrealizowane | 2025-04-08       |
+|       86 | 2025-03-28 | Zrealizowane | 2025-04-11       |
+|       93 | 2025-04-04 | Zrealizowane | 2025-04-18       |
+|       96 | 2025-04-07 | Zrealizowane | 2025-04-21       |
+|      103 | 2025-05-02 | Zrealizowane | 2025-05-16       |
+|      106 | 2025-05-03 | Zrealizowane | 2025-05-17       |
+|      109 | 2025-05-04 | Zrealizowane | 2025-05-18       |
+|      112 | 2025-05-05 | Zrealizowane | 2025-05-19       |
+|      115 | 2025-05-06 | Zrealizowane | 2025-05-20       |
+|      118 | 2025-05-07 | Zrealizowane | 2025-05-21       |
+|      121 | 2025-05-08 | Zrealizowane | 2025-05-22       |
+|      124 | 2025-05-09 | Zrealizowane | 2025-05-23       |
+|      127 | 2025-05-10 | Zrealizowane | 2025-05-24       |
+|      130 | 2025-05-11 | Zrealizowane | 2025-05-25       |
+|      133 | 2025-05-12 | Zrealizowane | 2025-05-26       |
+|      136 | 2025-05-13 | Zrealizowane | 2025-05-27       |
+|      139 | 2025-05-14 | Zrealizowane | 2025-05-28       |
+|      142 | 2025-05-15 | Zrealizowane | 2025-05-29       |
+|      145 | 2025-05-16 | Zrealizowane | 2025-05-30       |
+|      148 | 2025-05-17 | Zrealizowane | 2025-05-31       |
+|      151 | 2025-05-18 | Zrealizowane | 2025-06-01       |
+|      154 | 2025-05-19 | Zrealizowane | 2025-06-02       |
+|      157 | 2025-05-20 | Zrealizowane | 2025-06-03       |
+|      160 | 2025-05-21 | Zrealizowane | 2025-06-04       |
+|      163 | 2025-06-03 | Zrealizowane | 2025-06-17       |
+|      166 | 2025-06-06 | Zrealizowane | 2025-06-20       |
+|      169 | 2025-06-09 | Zrealizowane | 2025-06-23       |
+|        7 | 2025-06-02 | Anulowane    | 2025-06-16       |
+|       17 | 2025-01-17 | Anulowane    | 2025-01-31       |
+|       27 | 2025-01-27 | Anulowane    | 2025-02-10       |
+|       37 | 2025-02-07 | Anulowane    | 2025-02-21       |
+|       47 | 2025-02-17 | Anulowane    | 2025-03-03       |
+|       57 | 2025-02-27 | Anulowane    | 2025-03-13       |
+|       67 | 2025-03-09 | Anulowane    | 2025-03-23       |
+|       77 | 2025-03-19 | Anulowane    | 2025-04-02       |
+|       87 | 2025-03-29 | Anulowane    | 2025-04-12       |
+|       97 | 2025-04-08 | Anulowane    | 2025-04-22       |
+|        8 | 2025-07-09 | Oczekujace   | 2025-07-23       |
+|       18 | 2025-01-18 | Oczekujace   | 2025-02-01       |
+|       28 | 2025-01-28 | Oczekujace   | 2025-02-11       |
+|       38 | 2025-02-08 | Oczekujace   | 2025-02-22       |
+|       48 | 2025-02-18 | Oczekujace   | 2025-03-04       |
+|       58 | 2025-02-28 | Oczekujace   | 2025-03-14       |
+|       68 | 2025-03-10 | Oczekujace   | 2025-03-24       |
+|       78 | 2025-03-20 | Oczekujace   | 2025-04-03       |
+|       88 | 2025-03-30 | Oczekujace   | 2025-04-13       |
+|       98 | 2025-04-09 | Oczekujace   | 2025-04-23       |
+|        9 | 2025-08-03 | Wyslane      | 2025-08-17       |
+|       19 | 2025-01-19 | Wyslane      | 2025-02-02       |
+|       29 | 2025-01-29 | Wyslane      | 2025-02-12       |
+|       39 | 2025-02-09 | Wyslane      | 2025-02-23       |
+|       49 | 2025-02-19 | Wyslane      | 2025-03-05       |
+|       59 | 2025-03-01 | Wyslane      | 2025-03-15       |
+|       69 | 2025-03-11 | Wyslane      | 2025-03-25       |
+|       79 | 2025-03-21 | Wyslane      | 2025-04-04       |
+|       89 | 2025-03-31 | Wyslane      | 2025-04-14       |
+|       99 | 2025-04-10 | Wyslane      | 2025-04-24       |
++----------+------------+--------------+------------------+
+
++------------+-------------+--------------------+----------------+-----------------+
+| FIRST_NAME | LAST_NAME   | DATE_OF_EMPLOYMENT | Dzien_tygodnia | DEPARTMENT_NAME |
++------------+-------------+--------------------+----------------+-----------------+
+| Tomasz     | Kowal       | 2015-06-01         | Monday         | Sprzedaz        |
+| Katarzyna  | Lis         | 2018-03-15         | Thursday       | Magazyn         |
+| Marek      | Nowicki     | 2010-02-28         | Sunday         | Administracja   |
+| Agnieszka  | Lewandowska | 2021-01-10         | Sunday         | Ksiegowosc      |
+| Pawel      | Kaczor      | 2012-08-12         | Sunday         | Sprzedaz        |
+| Ewa        | Mazur       | 2017-04-20         | Thursday       | IT              |
+| Mariusz    | Zielony     | 2016-10-05         | Wednesday      | Logistyka       |
+| Aneta      | Kowalska    | 2019-11-11         | Monday         | Marketing       |
+| Rafal      | Sikora      | 2014-09-01         | Monday         | HR              |
+| Olga       | Czajka      | 2020-02-15         | Saturday       | Obsluga klienta |
+| Janusz     | Nowak       | 2017-05-01         | Monday         | Magazyn         |
+| Barbara    | Kowalczyk   | 2016-09-12         | Monday         | Administracja   |
+| Michal     | Zajac       | 2013-11-19         | Tuesday        | Sprzedaz        |
+| Magdalena  | Sadowska    | 2018-08-23         | Thursday       | Ksiegowosc      |
+| Grzegorz   | Kubiak      | 2014-07-17         | Thursday       | HR              |
+| Joanna     | Wojcik      | 2019-01-30         | Wednesday      | IT              |
+| Pawel      | Gajda       | 2016-04-14         | Thursday       | Logistyka       |
+| Sylwia     | Baran       | 2015-10-16         | Friday         | Marketing       |
+| Artur      | Bednarz     | 2017-02-28         | Tuesday        | Obsluga klienta |
+| Elzbieta   | Krawczyk    | 2020-06-05         | Friday         | Produkcja       |
+| Krzysztof  | Cybulski    | 2012-12-09         | Sunday         | Sprzedaz        |
+| Dorota     | Michalak    | 2014-01-22         | Wednesday      | Magazyn         |
+| Wojciech   | Krol        | 2010-05-15         | Saturday       | Administracja   |
+| Agnieszka  | Lis         | 2018-04-12         | Thursday       | Ksiegowosc      |
+| Tomasz     | Zielinski   | 2013-08-20         | Tuesday        | HR              |
+| Monika     | Sikora      | 2016-07-01         | Friday         | IT              |
+| Jakub      | Wozniak     | 2015-09-25         | Friday         | Logistyka       |
+| Ewelina    | Wrona       | 2017-11-13         | Monday         | Marketing       |
+| Marcin     | Krupa       | 2014-03-28         | Friday         | Obsluga klienta |
+| Patrycja   | Sowa        | 2019-07-18         | Thursday       | Produkcja       |
++------------+-------------+--------------------+----------------+-----------------+
+
++----------------------------+-------------+
+| FULL_NAME                  | ROZNICA_DNI |
++----------------------------+-------------+
+| Jan Kowalski               |          91 |
+| Anna Nowak                 |          88 |
+| Tech Solutions Sp. z o.o.  |          81 |
+| Food Market SA             |          81 |
+| Piotr Wisniewski           |        NULL |
+| AutoMax Sp. z o.o.         |         119 |
+| Karolina Kaczmarek         |         136 |
+| Meblex SA                  |         172 |
+| Michal Pawlak              |         196 |
+| EcoTrade Sp. z o.o.        |        NULL |
+| Marek Wojcik               |           0 |
+| Iwona Dudek                |           0 |
+| Fresh Food Sp. z o.o.      |          13 |
+| TechWorld SA               |           0 |
+| Rafal Zajac                |           0 |
+| HomeDecor Sp. z o.o.       |           0 |
+| Magdalena Baran            |           0 |
+| AutoParts SA               |           0 |
+| Kamil Wilk                 |           0 |
+| Eco Solutions Sp. z o.o.   |           0 |
+| Paulina Malecka            |           9 |
+| FurniCo SA                 |           0 |
+| Jakub Sikora               |           0 |
+| SportPro Sp. z o.o.        |           0 |
+| Anna Nowakowska            |           0 |
+| GardenPlus SA              |           0 |
+| Marta Duda                 |          13 |
+| Office Supplies Sp. z o.o. |          39 |
+| Tomasz Kaminski            |           0 |
+| CleanHome SA               |          59 |
+| Emilia Sadowska            |          50 |
+| Market Super S.A.          |          50 |
+| Zenon Rutkowski            |          50 |
+| DigitalHouse Sp. z o.o.    |          50 |
+| Julia Olszewska            |          50 |
+| TechPlanet S.A.            |          50 |
+| Patryk Domanski            |          50 |
+| BestJobs Sp. z o.o.        |          50 |
+| Monika Krysztofiak         |          50 |
+| EcoDrive S.A.              |          50 |
+| Marek Chrzanowski          |          20 |
+| FoodWay S.A.               |          20 |
+| Natalia Gorska             |          20 |
+| GardenPro Sp. z o.o.       |          20 |
+| Pawel Kaczmarek            |          20 |
+| PaperGroup S.A.            |          20 |
+| Joanna Czarnecka           |          20 |
+| Fitmarket Sp. z o.o.       |          20 |
+| Tomasz Wojcik              |          20 |
+| WebCom S.A.                |          20 |
++----------------------------+-------------+
+
++--------------+-----------------------------+
+| SHORT_NAME   | ADRESY                      |
++--------------+-----------------------------+
+| Kowalski     | ul. Miodowa 8, ul. Dluga 12 |
+| Nowak        | ul. Krotka 10               |
+| TechSol      | ul. Zielona 5               |
+| FoodMarket   | ul. Wesola 22               |
+| Wisniewski   | al. Jana Pawla II 20        |
+| AutoMax      | ul. Mickiewicza 7           |
+| Kaczmarek    | ul. Ogrodowa 15             |
+| Meblex       | ul. Spacerowa 3             |
+| Pawlak       | ul. Dworcowa 9              |
+| Wojcik       | ul. Polna 14                |
+| Dudek        | ul. Cicha 3                 |
+| FreshFood    | ul. Wiosenna 22             |
+| TechWorld    | ul. Sloneczna 7             |
+| Zajac        | ul. Rozana 11               |
+| HomeDecor    | ul. Sadowa 8                |
+| Baran        | ul. Lesna 5                 |
+| AutoParts    | ul. Jesionowa 20            |
+| Wilk         | ul. Brzozowa 18             |
+| EcoSol       | ul. Piekna 6                |
+| Malecka      | ul. Lipowa 9                |
+| FurniCo      | ul. Kwiatowa 4              |
+| Sikora       | ul. Krotka 12               |
+| SportPro     | ul. Orla 14                 |
+| Nowakowska   | ul. Wierzbowa 17            |
+| GardenPlus   | ul. Debowa 23               |
+| Duda         | ul. Sosnowa 29              |
+| OfficeSup    | ul. Grabowa 10              |
+| Kaminski     | ul. Modrzewiowa 15          |
+| CleanHome    | ul. Wolska 19               |
+| Sadowska     | ul. Jagodowa 11             |
+| MarketSuper  | ul. Malinowa 5              |
+| Rutkowski    | ul. Winna 17                |
+| DigitalHouse | ul. Brzoskwiniowa 2         |
+| Olszewska    | ul. Wisniowa 9              |
+| TechPlanet   | ul. Poziomkowa 12           |
+| Domanski     | ul. Sliwkowa 21             |
+| BestJobs     | ul. Orzechowa 7             |
+| Krysztofiak  | ul. Morelowa 33             |
+| EcoDrive     | ul. Lososiowa 15            |
+| Chrzanowski  | ul. Jastrzebia 22           |
+| FoodWay      | ul. Slowikowa 29            |
+| Gorska       | ul. Zurawia 4               |
+| GardenPro    | ul. Sepia 16                |
+| Kaczmarek    | ul. Orla 8                  |
+| PaperGroup   | ul. Wilcza 41               |
+| Czarnecka    | ul. Niedzwiedzia 18         |
+| Fitmarket    | ul. Lisiarnia 27            |
+| Wojcik       | ul. Zajaca 13               |
+| WebCom       | ul. Dzikiej Rozy 5          |
++--------------+-----------------------------+
+
++------------+---------------+
+| city       | prefixy_kodow |
++------------+---------------+
+| Bydgoszcz  | 85            |
+| Chelm      | 21            |
+| Gdansk     | 80            |
+| Inowroclaw | 88            |
+| Katowice   | 40            |
+| Koszalin   | 71            |
+| Krakow     | 30            |
+| Legnica    | 53            |
+| lodz       | 90            |
+| Lublin     | 20            |
+| Nowy Sacz  | 34            |
+| Olsztyn    | 10            |
+| Plock      | 96            |
+| Poznan     | 60            |
+| Rybnik     | 44            |
+| Rzeszow    | 35            |
+| Szczecin   | 70            |
+| Tarnow     | 33            |
+| Warszawa   | 00, 01        |
+| Wroclaw    | 50            |
+| Wrzesnia   | 62            |
++------------+---------------+
+
++-----------------------+-----------------+-----------+
+| PRACOWNIK             | DEPARTMENT_NAME | DNI_PRACY |
++-----------------------+-----------------+-----------+
+| Kowal Tomasz          | Sprzedaz        |      3885 |
+| Lis Katarzyna         | Magazyn         |      2867 |
+| Nowicki Marek         | Administracja   |      5804 |
+| Lewandowska Agnieszka | Ksiegowosc      |      1835 |
+| Kaczor Pawel          | Sprzedaz        |      4908 |
+| Mazur Ewa             | IT              |      3196 |
+| Zielony Mariusz       | Logistyka       |      3393 |
+| Kowalska Aneta        | Marketing       |      2261 |
+| Sikora Rafal          | HR              |      4158 |
+| Czajka Olga           | Obsluga klienta |      2165 |
+| Nowak Janusz          | Magazyn         |      3185 |
+| Kowalczyk Barbara     | Administracja   |      3416 |
+| Zajac Michal          | Sprzedaz        |      4444 |
+| Sadowska Magdalena    | Ksiegowosc      |      2706 |
+| Kubiak Grzegorz       | HR              |      4204 |
+| Wojcik Joanna         | IT              |      2546 |
+| Gajda Pawel           | Logistyka       |      3567 |
+| Baran Sylwia          | Marketing       |      3748 |
+| Bednarz Artur         | Obsluga klienta |      3247 |
+| Krawczyk Elzbieta     | Produkcja       |      2054 |
+| Cybulski Krzysztof    | Sprzedaz        |      4789 |
+| Michalak Dorota       | Magazyn         |      4380 |
+| Krol Wojciech         | Administracja   |      5728 |
+| Lis Agnieszka         | Ksiegowosc      |      2839 |
+| Zielinski Tomasz      | HR              |      4535 |
+| Sikora Monika         | IT              |      3489 |
+| Wozniak Jakub         | Logistyka       |      3769 |
+| Wrona Ewelina         | Marketing       |      2989 |
+| Krupa Marcin          | Obsluga klienta |      4315 |
+| Sowa Patrycja         | Produkcja       |      2377 |
++-----------------------+-----------------+-----------+
+
++----------------------------------------+--------------------------------------------------+
+| KLIENT_INFJ                            | KONCOWKI_ZAMOWIEN                                |
++----------------------------------------+--------------------------------------------------+
+| Jan Kowalski - Kowalski                | 091, 081, 071, 061, 031, 011, 001                |
+| Anna Nowak - Nowak                     | 092, 082, 062, 052, 042, 032, 022, 012, 002      |
+| Tech Solutions Sp. z o.o. - TechSol    | 093, 083, 073, 063, 053, 043, 033, 023, 013, 003 |
+| Food Market SA - FoodMarket            | 094, 084, 074, 064, 054, 044, 034, 024, 014, 004 |
+| Piotr Wisniewski - Wisniewski          | NULL                                             |
+| AutoMax Sp. z o.o. - AutoMax           | 096, 086, 076, 066, 056, 036, 026, 016, 006      |
+| Karolina Kaczmarek - Kaczmarek         | 097, 087, 077, 067, 057, 047, 037, 027, 017, 007 |
+| Meblex SA - Meblex                     | 098, 088, 078, 068, 058, 048, 038, 018, 008      |
+| Michal Pawlak - Pawlak                 | 099, 089, 079, 069, 059, 049, 039, 029, 019, 009 |
+| EcoTrade Sp. z o.o. - EcoTrade         | NULL                                             |
+| Marek Wojcik - Wojcik                  | 005                                              |
+| Iwona Dudek - Dudek                    | 010                                              |
+| Fresh Food Sp. z o.o. - FreshFood      | 028, 021, 015                                    |
+| TechWorld SA - TechWorld               | 020                                              |
+| Rafal Zajac - Zajac                    | 025                                              |
+| HomeDecor Sp. z o.o. - HomeDecor       | 030                                              |
+| Magdalena Baran - Baran                | 035                                              |
+| AutoParts SA - AutoParts               | 040                                              |
+| Kamil Wilk - Wilk                      | 045                                              |
+| Eco Solutions Sp. z o.o. - EcoSol      | 050                                              |
+| Paulina Malecka - Malecka              | 055, 046                                         |
+| FurniCo SA - FurniCo                   | 060                                              |
+| Jakub Sikora - Sikora                  | 065                                              |
+| SportPro Sp. z o.o. - SportPro         | 070                                              |
+| Anna Nowakowska - Nowakowska           | 075                                              |
+| GardenPlus SA - GardenPlus             | 080                                              |
+| Marta Duda - Duda                      | 085, 072                                         |
+| Office Supplies Sp. z o.o. - OfficeSup | 090, 051                                         |
+| Tomasz Kaminski - Kaminski             | 095                                              |
+| CleanHome SA - CleanHome               | 100, 041                                         |
+| Emilia Sadowska - Sadowska             | 161, 103, 102, 101                               |
+| Market Super S.A. - MarketSuper        | 162, 106, 105, 104                               |
+| Zenon Rutkowski - Rutkowski            | 163, 109, 108, 107                               |
+| DigitalHouse Sp. z o.o. - DigitalHouse | 164, 112, 111, 110                               |
+| Julia Olszewska - Olszewska            | 165, 115, 114, 113                               |
+| TechPlanet S.A. - TechPlanet           | 166, 118, 117, 116                               |
+| Patryk Domanski - Domanski             | 167, 121, 120, 119                               |
+| BestJobs Sp. z o.o. - BestJobs         | 168, 124, 123, 122                               |
+| Monika Krysztofiak - Krysztofiak       | 169, 127, 126, 125                               |
+| EcoDrive S.A. - EcoDrive               | 170, 130, 129, 128                               |
+| Marek Chrzanowski - Chrzanowski        | 133, 132, 131                                    |
+| FoodWay S.A. - FoodWay                 | 136, 135, 134                                    |
+| Natalia Gorska - Gorska                | 139, 138, 137                                    |
+| GardenPro Sp. z o.o. - GardenPro       | 142, 141, 140                                    |
+| Pawel Kaczmarek - Kaczmarek            | 145, 144, 143                                    |
+| PaperGroup S.A. - PaperGroup           | 148, 147, 146                                    |
+| Joanna Czarnecka - Czarnecka           | 151, 150, 149                                    |
+| Fitmarket Sp. z o.o. - Fitmarket       | 154, 153, 152                                    |
+| Tomasz Wojcik - Wojcik                 | 157, 156, 155                                    |
+| WebCom S.A. - WebCom                   | 160, 159, 158                                    |
++----------------------------------------+--------------------------------------------------+
+
++------------+-------------+-----------+
+| FIRST_NAME | LAST_NAME   | HASLO     |
++------------+-------------+-----------+
+| Tomasz     | Kowal       | tomOWAL13 |
+| Katarzyna  | Lis         | katLIS16  |
+| Marek      | Nowicki     | marICKI12 |
+| Agnieszka  | Lewandowska | agnWSKA16 |
+| Pawel      | Kaczor      | pawCZOR13 |
+| Ewa        | Mazur       | ewaAZUR10 |
+| Mariusz    | Zielony     | marLONY14 |
+| Aneta      | Kowalska    | aneLSKA12 |
+| Rafal      | Sikora      | rafKORA12 |
+| Olga       | Czajka      | olgAJKA12 |
+| Janusz     | Nowak       | janOWAK13 |
+| Barbara    | Kowalczyk   | barCZYK14 |
+| Michal     | Zajac       | micAJAC13 |
+| Magdalena  | Sadowska    | magWSKA16 |
+| Grzegorz   | Kubiak      | grzBIAK15 |
+| Joanna     | Wojcik      | joaJCIK14 |
+| Pawel      | Gajda       | pawAJDA12 |
+| Sylwia     | Baran       | sylARAN14 |
+| Artur      | Bednarz     | artNARZ12 |
+| Elzbieta   | Krawczyk    | elzCZYK14 |
+| Krzysztof  | Cybulski    | krzLSKI16 |
+| Dorota     | Michalak    | dorALAK13 |
+| Wojciech   | Krol        | wojKROL14 |
+| Agnieszka  | Lis         | agnLIS16  |
+| Tomasz     | Zielinski   | tomNSKI13 |
+| Monika     | Sikora      | monKORA13 |
+| Jakub      | Wozniak     | jakNIAK12 |
+| Ewelina    | Wrona       | eweRONA14 |
+| Marcin     | Krupa       | marRUPA13 |
+| Patrycja   | Sowa        | patSOWA14 |
++------------+-------------+-----------+
+
++------------+------------+-----------+------------+-------------------+
+| ORDER_DATE | Format_1   | Format_2  | Format_3   | Format_4          |
++------------+------------+-----------+------------+-------------------+
+| 2025-01-01 | 01-01-2025 | 2025 - 01 | 2025 - 001 | January/01/2025   |
+| 2025-01-05 | 05-01-2025 | 2025 - 01 | 2025 - 005 | January/05/2025   |
+| 2025-02-10 | 10-02-2025 | 2025 - 07 | 2025 - 041 | February/10/2025  |
+| 2025-03-11 | 11-03-2025 | 2025 - 11 | 2025 - 070 | March/11/2025     |
+| 2025-04-18 | 18-04-2025 | 2025 - 16 | 2025 - 108 | April/18/2025     |
+| 2025-05-15 | 15-05-2025 | 2025 - 20 | 2025 - 135 | May/15/2025       |
+| 2025-06-02 | 02-06-2025 | 2025 - 23 | 2025 - 153 | June/02/2025      |
+| 2025-07-09 | 09-07-2025 | 2025 - 28 | 2025 - 190 | July/09/2025      |
+| 2025-08-03 | 03-08-2025 | 2025 - 31 | 2025 - 215 | August/03/2025    |
+| 2025-09-10 | 10-09-2025 | 2025 - 37 | 2025 - 253 | September/10/2025 |
+| 2025-01-11 | 11-01-2025 | 2025 - 02 | 2025 - 011 | January/11/2025   |
+| 2025-01-12 | 12-01-2025 | 2025 - 02 | 2025 - 012 | January/12/2025   |
+| 2025-01-13 | 13-01-2025 | 2025 - 03 | 2025 - 013 | January/13/2025   |
+| 2025-01-14 | 14-01-2025 | 2025 - 03 | 2025 - 014 | January/14/2025   |
+| 2025-01-15 | 15-01-2025 | 2025 - 03 | 2025 - 015 | January/15/2025   |
+| 2025-01-16 | 16-01-2025 | 2025 - 03 | 2025 - 016 | January/16/2025   |
+| 2025-01-17 | 17-01-2025 | 2025 - 03 | 2025 - 017 | January/17/2025   |
+| 2025-01-18 | 18-01-2025 | 2025 - 03 | 2025 - 018 | January/18/2025   |
+| 2025-01-19 | 19-01-2025 | 2025 - 03 | 2025 - 019 | January/19/2025   |
+| 2025-01-20 | 20-01-2025 | 2025 - 04 | 2025 - 020 | January/20/2025   |
+| 2025-01-21 | 21-01-2025 | 2025 - 04 | 2025 - 021 | January/21/2025   |
+| 2025-01-22 | 22-01-2025 | 2025 - 04 | 2025 - 022 | January/22/2025   |
+| 2025-01-23 | 23-01-2025 | 2025 - 04 | 2025 - 023 | January/23/2025   |
+| 2025-01-24 | 24-01-2025 | 2025 - 04 | 2025 - 024 | January/24/2025   |
+| 2025-01-25 | 25-01-2025 | 2025 - 04 | 2025 - 025 | January/25/2025   |
+| 2025-01-26 | 26-01-2025 | 2025 - 04 | 2025 - 026 | January/26/2025   |
+| 2025-01-27 | 27-01-2025 | 2025 - 05 | 2025 - 027 | January/27/2025   |
+| 2025-01-28 | 28-01-2025 | 2025 - 05 | 2025 - 028 | January/28/2025   |
+| 2025-01-29 | 29-01-2025 | 2025 - 05 | 2025 - 029 | January/29/2025   |
+| 2025-01-30 | 30-01-2025 | 2025 - 05 | 2025 - 030 | January/30/2025   |
+| 2025-02-01 | 01-02-2025 | 2025 - 05 | 2025 - 032 | February/01/2025  |
+| 2025-02-02 | 02-02-2025 | 2025 - 05 | 2025 - 033 | February/02/2025  |
+| 2025-02-03 | 03-02-2025 | 2025 - 06 | 2025 - 034 | February/03/2025  |
+| 2025-02-04 | 04-02-2025 | 2025 - 06 | 2025 - 035 | February/04/2025  |
+| 2025-02-05 | 05-02-2025 | 2025 - 06 | 2025 - 036 | February/05/2025  |
+| 2025-02-06 | 06-02-2025 | 2025 - 06 | 2025 - 037 | February/06/2025  |
+| 2025-02-07 | 07-02-2025 | 2025 - 06 | 2025 - 038 | February/07/2025  |
+| 2025-02-08 | 08-02-2025 | 2025 - 06 | 2025 - 039 | February/08/2025  |
+| 2025-02-09 | 09-02-2025 | 2025 - 06 | 2025 - 040 | February/09/2025  |
+| 2025-02-10 | 10-02-2025 | 2025 - 07 | 2025 - 041 | February/10/2025  |
+| 2025-02-11 | 11-02-2025 | 2025 - 07 | 2025 - 042 | February/11/2025  |
+| 2025-02-12 | 12-02-2025 | 2025 - 07 | 2025 - 043 | February/12/2025  |
+| 2025-02-13 | 13-02-2025 | 2025 - 07 | 2025 - 044 | February/13/2025  |
+| 2025-02-14 | 14-02-2025 | 2025 - 07 | 2025 - 045 | February/14/2025  |
+| 2025-02-15 | 15-02-2025 | 2025 - 07 | 2025 - 046 | February/15/2025  |
+| 2025-02-16 | 16-02-2025 | 2025 - 07 | 2025 - 047 | February/16/2025  |
+| 2025-02-17 | 17-02-2025 | 2025 - 08 | 2025 - 048 | February/17/2025  |
+| 2025-02-18 | 18-02-2025 | 2025 - 08 | 2025 - 049 | February/18/2025  |
+| 2025-02-19 | 19-02-2025 | 2025 - 08 | 2025 - 050 | February/19/2025  |
+| 2025-02-20 | 20-02-2025 | 2025 - 08 | 2025 - 051 | February/20/2025  |
+| 2025-02-21 | 21-02-2025 | 2025 - 08 | 2025 - 052 | February/21/2025  |
+| 2025-02-22 | 22-02-2025 | 2025 - 08 | 2025 - 053 | February/22/2025  |
+| 2025-02-23 | 23-02-2025 | 2025 - 08 | 2025 - 054 | February/23/2025  |
+| 2025-02-24 | 24-02-2025 | 2025 - 09 | 2025 - 055 | February/24/2025  |
+| 2025-02-25 | 25-02-2025 | 2025 - 09 | 2025 - 056 | February/25/2025  |
+| 2025-02-26 | 26-02-2025 | 2025 - 09 | 2025 - 057 | February/26/2025  |
+| 2025-02-27 | 27-02-2025 | 2025 - 09 | 2025 - 058 | February/27/2025  |
+| 2025-02-28 | 28-02-2025 | 2025 - 09 | 2025 - 059 | February/28/2025  |
+| 2025-03-01 | 01-03-2025 | 2025 - 09 | 2025 - 060 | March/01/2025     |
+| 2025-03-02 | 02-03-2025 | 2025 - 09 | 2025 - 061 | March/02/2025     |
+| 2025-03-03 | 03-03-2025 | 2025 - 10 | 2025 - 062 | March/03/2025     |
+| 2025-03-04 | 04-03-2025 | 2025 - 10 | 2025 - 063 | March/04/2025     |
+| 2025-03-05 | 05-03-2025 | 2025 - 10 | 2025 - 064 | March/05/2025     |
+| 2025-03-06 | 06-03-2025 | 2025 - 10 | 2025 - 065 | March/06/2025     |
+| 2025-03-07 | 07-03-2025 | 2025 - 10 | 2025 - 066 | March/07/2025     |
+| 2025-03-08 | 08-03-2025 | 2025 - 10 | 2025 - 067 | March/08/2025     |
+| 2025-03-09 | 09-03-2025 | 2025 - 10 | 2025 - 068 | March/09/2025     |
+| 2025-03-10 | 10-03-2025 | 2025 - 11 | 2025 - 069 | March/10/2025     |
+| 2025-03-11 | 11-03-2025 | 2025 - 11 | 2025 - 070 | March/11/2025     |
+| 2025-03-12 | 12-03-2025 | 2025 - 11 | 2025 - 071 | March/12/2025     |
+| 2025-03-13 | 13-03-2025 | 2025 - 11 | 2025 - 072 | March/13/2025     |
+| 2025-03-14 | 14-03-2025 | 2025 - 11 | 2025 - 073 | March/14/2025     |
+| 2025-03-15 | 15-03-2025 | 2025 - 11 | 2025 - 074 | March/15/2025     |
+| 2025-03-16 | 16-03-2025 | 2025 - 11 | 2025 - 075 | March/16/2025     |
+| 2025-03-17 | 17-03-2025 | 2025 - 12 | 2025 - 076 | March/17/2025     |
+| 2025-03-18 | 18-03-2025 | 2025 - 12 | 2025 - 077 | March/18/2025     |
+| 2025-03-19 | 19-03-2025 | 2025 - 12 | 2025 - 078 | March/19/2025     |
+| 2025-03-20 | 20-03-2025 | 2025 - 12 | 2025 - 079 | March/20/2025     |
+| 2025-03-21 | 21-03-2025 | 2025 - 12 | 2025 - 080 | March/21/2025     |
+| 2025-03-22 | 22-03-2025 | 2025 - 12 | 2025 - 081 | March/22/2025     |
+| 2025-03-23 | 23-03-2025 | 2025 - 12 | 2025 - 082 | March/23/2025     |
+| 2025-03-24 | 24-03-2025 | 2025 - 13 | 2025 - 083 | March/24/2025     |
+| 2025-03-25 | 25-03-2025 | 2025 - 13 | 2025 - 084 | March/25/2025     |
+| 2025-03-26 | 26-03-2025 | 2025 - 13 | 2025 - 085 | March/26/2025     |
+| 2025-03-27 | 27-03-2025 | 2025 - 13 | 2025 - 086 | March/27/2025     |
+| 2025-03-28 | 28-03-2025 | 2025 - 13 | 2025 - 087 | March/28/2025     |
+| 2025-03-29 | 29-03-2025 | 2025 - 13 | 2025 - 088 | March/29/2025     |
+| 2025-03-30 | 30-03-2025 | 2025 - 13 | 2025 - 089 | March/30/2025     |
+| 2025-03-31 | 31-03-2025 | 2025 - 14 | 2025 - 090 | March/31/2025     |
+| 2025-04-01 | 01-04-2025 | 2025 - 14 | 2025 - 091 | April/01/2025     |
+| 2025-04-02 | 02-04-2025 | 2025 - 14 | 2025 - 092 | April/02/2025     |
+| 2025-04-03 | 03-04-2025 | 2025 - 14 | 2025 - 093 | April/03/2025     |
+| 2025-04-04 | 04-04-2025 | 2025 - 14 | 2025 - 094 | April/04/2025     |
+| 2025-04-05 | 05-04-2025 | 2025 - 14 | 2025 - 095 | April/05/2025     |
+| 2025-04-06 | 06-04-2025 | 2025 - 14 | 2025 - 096 | April/06/2025     |
+| 2025-04-07 | 07-04-2025 | 2025 - 15 | 2025 - 097 | April/07/2025     |
+| 2025-04-08 | 08-04-2025 | 2025 - 15 | 2025 - 098 | April/08/2025     |
+| 2025-04-09 | 09-04-2025 | 2025 - 15 | 2025 - 099 | April/09/2025     |
+| 2025-04-10 | 10-04-2025 | 2025 - 15 | 2025 - 100 | April/10/2025     |
+| 2025-04-11 | 11-04-2025 | 2025 - 15 | 2025 - 101 | April/11/2025     |
+| 2025-04-12 | 12-04-2025 | 2025 - 15 | 2025 - 102 | April/12/2025     |
+| 2025-04-22 | 22-04-2025 | 2025 - 17 | 2025 - 112 | April/22/2025     |
+| 2025-05-02 | 02-05-2025 | 2025 - 18 | 2025 - 122 | May/02/2025       |
+| 2025-04-13 | 13-04-2025 | 2025 - 15 | 2025 - 103 | April/13/2025     |
+| 2025-04-23 | 23-04-2025 | 2025 - 17 | 2025 - 113 | April/23/2025     |
+| 2025-05-03 | 03-05-2025 | 2025 - 18 | 2025 - 123 | May/03/2025       |
+| 2025-04-14 | 14-04-2025 | 2025 - 16 | 2025 - 104 | April/14/2025     |
+| 2025-04-24 | 24-04-2025 | 2025 - 17 | 2025 - 114 | April/24/2025     |
+| 2025-05-04 | 04-05-2025 | 2025 - 18 | 2025 - 124 | May/04/2025       |
+| 2025-04-15 | 15-04-2025 | 2025 - 16 | 2025 - 105 | April/15/2025     |
+| 2025-04-25 | 25-04-2025 | 2025 - 17 | 2025 - 115 | April/25/2025     |
+| 2025-05-05 | 05-05-2025 | 2025 - 19 | 2025 - 125 | May/05/2025       |
+| 2025-04-16 | 16-04-2025 | 2025 - 16 | 2025 - 106 | April/16/2025     |
+| 2025-04-26 | 26-04-2025 | 2025 - 17 | 2025 - 116 | April/26/2025     |
+| 2025-05-06 | 06-05-2025 | 2025 - 19 | 2025 - 126 | May/06/2025       |
+| 2025-04-17 | 17-04-2025 | 2025 - 16 | 2025 - 107 | April/17/2025     |
+| 2025-04-27 | 27-04-2025 | 2025 - 17 | 2025 - 117 | April/27/2025     |
+| 2025-05-07 | 07-05-2025 | 2025 - 19 | 2025 - 127 | May/07/2025       |
+| 2025-04-18 | 18-04-2025 | 2025 - 16 | 2025 - 108 | April/18/2025     |
+| 2025-04-28 | 28-04-2025 | 2025 - 18 | 2025 - 118 | April/28/2025     |
+| 2025-05-08 | 08-05-2025 | 2025 - 19 | 2025 - 128 | May/08/2025       |
+| 2025-04-19 | 19-04-2025 | 2025 - 16 | 2025 - 109 | April/19/2025     |
+| 2025-04-29 | 29-04-2025 | 2025 - 18 | 2025 - 119 | April/29/2025     |
+| 2025-05-09 | 09-05-2025 | 2025 - 19 | 2025 - 129 | May/09/2025       |
+| 2025-04-20 | 20-04-2025 | 2025 - 16 | 2025 - 110 | April/20/2025     |
+| 2025-04-30 | 30-04-2025 | 2025 - 18 | 2025 - 120 | April/30/2025     |
+| 2025-05-10 | 10-05-2025 | 2025 - 19 | 2025 - 130 | May/10/2025       |
+| 2025-04-21 | 21-04-2025 | 2025 - 17 | 2025 - 111 | April/21/2025     |
+| 2025-05-01 | 01-05-2025 | 2025 - 18 | 2025 - 121 | May/01/2025       |
+| 2025-05-11 | 11-05-2025 | 2025 - 19 | 2025 - 131 | May/11/2025       |
+| 2025-04-22 | 22-04-2025 | 2025 - 17 | 2025 - 112 | April/22/2025     |
+| 2025-05-02 | 02-05-2025 | 2025 - 18 | 2025 - 122 | May/02/2025       |
+| 2025-05-12 | 12-05-2025 | 2025 - 20 | 2025 - 132 | May/12/2025       |
+| 2025-04-23 | 23-04-2025 | 2025 - 17 | 2025 - 113 | April/23/2025     |
+| 2025-05-03 | 03-05-2025 | 2025 - 18 | 2025 - 123 | May/03/2025       |
+| 2025-05-13 | 13-05-2025 | 2025 - 20 | 2025 - 133 | May/13/2025       |
+| 2025-04-24 | 24-04-2025 | 2025 - 17 | 2025 - 114 | April/24/2025     |
+| 2025-05-04 | 04-05-2025 | 2025 - 18 | 2025 - 124 | May/04/2025       |
+| 2025-05-14 | 14-05-2025 | 2025 - 20 | 2025 - 134 | May/14/2025       |
+| 2025-04-25 | 25-04-2025 | 2025 - 17 | 2025 - 115 | April/25/2025     |
+| 2025-05-05 | 05-05-2025 | 2025 - 19 | 2025 - 125 | May/05/2025       |
+| 2025-05-15 | 15-05-2025 | 2025 - 20 | 2025 - 135 | May/15/2025       |
+| 2025-04-26 | 26-04-2025 | 2025 - 17 | 2025 - 116 | April/26/2025     |
+| 2025-05-06 | 06-05-2025 | 2025 - 19 | 2025 - 126 | May/06/2025       |
+| 2025-05-16 | 16-05-2025 | 2025 - 20 | 2025 - 136 | May/16/2025       |
+| 2025-04-27 | 27-04-2025 | 2025 - 17 | 2025 - 117 | April/27/2025     |
+| 2025-05-07 | 07-05-2025 | 2025 - 19 | 2025 - 127 | May/07/2025       |
+| 2025-05-17 | 17-05-2025 | 2025 - 20 | 2025 - 137 | May/17/2025       |
+| 2025-04-28 | 28-04-2025 | 2025 - 18 | 2025 - 118 | April/28/2025     |
+| 2025-05-08 | 08-05-2025 | 2025 - 19 | 2025 - 128 | May/08/2025       |
+| 2025-05-18 | 18-05-2025 | 2025 - 20 | 2025 - 138 | May/18/2025       |
+| 2025-04-29 | 29-04-2025 | 2025 - 18 | 2025 - 119 | April/29/2025     |
+| 2025-05-09 | 09-05-2025 | 2025 - 19 | 2025 - 129 | May/09/2025       |
+| 2025-05-19 | 19-05-2025 | 2025 - 21 | 2025 - 139 | May/19/2025       |
+| 2025-04-30 | 30-04-2025 | 2025 - 18 | 2025 - 120 | April/30/2025     |
+| 2025-05-10 | 10-05-2025 | 2025 - 19 | 2025 - 130 | May/10/2025       |
+| 2025-05-20 | 20-05-2025 | 2025 - 21 | 2025 - 140 | May/20/2025       |
+| 2025-05-01 | 01-05-2025 | 2025 - 18 | 2025 - 121 | May/01/2025       |
+| 2025-05-11 | 11-05-2025 | 2025 - 19 | 2025 - 131 | May/11/2025       |
+| 2025-05-21 | 21-05-2025 | 2025 - 21 | 2025 - 141 | May/21/2025       |
+| 2025-06-01 | 01-06-2025 | 2025 - 22 | 2025 - 152 | June/01/2025      |
+| 2025-06-02 | 02-06-2025 | 2025 - 23 | 2025 - 153 | June/02/2025      |
+| 2025-06-03 | 03-06-2025 | 2025 - 23 | 2025 - 154 | June/03/2025      |
+| 2025-06-04 | 04-06-2025 | 2025 - 23 | 2025 - 155 | June/04/2025      |
+| 2025-06-05 | 05-06-2025 | 2025 - 23 | 2025 - 156 | June/05/2025      |
+| 2025-06-06 | 06-06-2025 | 2025 - 23 | 2025 - 157 | June/06/2025      |
+| 2025-06-07 | 07-06-2025 | 2025 - 23 | 2025 - 158 | June/07/2025      |
+| 2025-06-08 | 08-06-2025 | 2025 - 23 | 2025 - 159 | June/08/2025      |
+| 2025-06-09 | 09-06-2025 | 2025 - 24 | 2025 - 160 | June/09/2025      |
+| 2025-06-10 | 10-06-2025 | 2025 - 24 | 2025 - 161 | June/10/2025      |
++------------+------------+-----------+------------+-------------------+
+
++--------------+------------+
+| Tydzien_Roku | WARTOSC    |
++--------------+------------+
+|           11 | 14087.0000 |
++--------------+------------+
